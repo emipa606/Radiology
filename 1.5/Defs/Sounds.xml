@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef Abstract="True" Name="RadiologySound">
+    <context>MapOnly</context>
+    <eventNames />
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyIrradiateBasic</defName>
+    <sustain>true</sustain>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>false</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/IrradiateBasic</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>8</min>
+          <max>8</max>
+        </volumeRange>
+        <sustainAttack>0.25</sustainAttack>
+        <sustainRelease>0.25</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyBurn</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Radiology/Burn</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>15</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyMutate</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Radiology/Mutate</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>35</min>
+          <max>40</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyCancerMale</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/CancerMale</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>20</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyCancerFemale</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/CancerFemale</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>20</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyBlink</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/Blink</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>20</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyCarapaceImpact</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/CarapaceImpact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>12</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyElectricitySpark</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/ElectricitySpark</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>5</min>
+          <max>10</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+        <distRange>
+          <min>15</min>
+          <max>25</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologySoundRegenerationBlood</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/RegenerationBlood</clipPath>
+          </li>
+        </grains>
+        <volumeRange>15~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologySoundRegeneration</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/Regeneration</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>20</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef ParentName="RadiologySound">
+    <defName>RadiologyFireShield</defName>
+    <maxSimultaneous>8</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radiology/FireShield</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>20</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

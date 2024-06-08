@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- These are Mote ThingDefs. Remain the same, DO NOT translate them. -->
-
   <RadiologyMoteRadiation.label>微粒</RadiologyMoteRadiation.label>
   <RadiologyMoteRadiationDirected.label>微粒</RadiologyMoteRadiationDirected.label>
   <RadiologyMoteBurn.label>微粒</RadiologyMoteBurn.label>
@@ -21,6 +19,4 @@
   <RadiologyMoteShieldRestored.label>微粒</RadiologyMoteShieldRestored.label>
   <RadiologyMoteFireShield.label>微粒</RadiologyMoteFireShield.label>
   <RadiologyMoteRegeneration.label>微粒</RadiologyMoteRegeneration.label>
-
-
 </LanguageData>

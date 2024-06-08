@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Name="RadiologyMutationApparelBase" Abstract="True">
     <thingClass>Radiology.ApparelBodyPart</thingClass>
@@ -12,42 +12,46 @@
     <altitudeLayer>Item</altitudeLayer>
     <tickerType>Never</tickerType>
   </ThingDef>
-  
   <ThingDef ParentName="RadiologyMutationApparelBase">
     <defName>RadiologyHorns</defName>
     <label>horns</label>
     <description>Horns.</description>
-    <thingCategories><li>Headgear</li></thingCategories>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
     <graphicData>
       <texPath>Radiology/Parts/Horns</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    
-    <equippedStatOffsets><SocialImpact>-0.2</SocialImpact></equippedStatOffsets>
-    
+    <equippedStatOffsets>
+      <SocialImpact>-0.2</SocialImpact>
+    </equippedStatOffsets>
     <apparel>
-      <bodyPartGroups><li>UpperHead</li></bodyPartGroups>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
       <wornGraphicPath>Radiology/Parts/Horns</wornGraphicPath>
-      <layers><li>Overhead</li></layers>
+      <layers>
+        <li>Overhead</li>
+      </layers>
       <hatRenderedFrontOfFace>True</hatRenderedFrontOfFace>
     </apparel>
   </ThingDef>
-
   <HediffDef ParentName="RadiologyMutation" Class="Radiology.MutationDef">
     <defName>MutationHorns</defName>
     <label>horns</label>
     <description>Horns have popped out of colonist's head, making it impossible for him to wear and headgear. At least horns can be used as a melee weapon.</description>
-
-    <relatedParts><li>Head</li></relatedParts>
-    <affectedParts><li>Head</li></affectedParts>
+    <relatedParts>
+      <li>Head</li>
+    </relatedParts>
+    <affectedParts>
+      <li>Head</li>
+    </affectedParts>
     <exclusive>apparel</exclusive>
-    
     <beauty>-1</beauty>
-    
     <apparel>
       <li>RadiologyHorns</li>
     </apparel>
-    
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
         <tools>
@@ -68,7 +72,5 @@
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
     </addedPartProps>
-
   </HediffDef>
-
 </Defs>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <CancerCompPartEfficiency.description>身体部件工作效率降低{0}%</CancerCompPartEfficiency.description>
   <CancerCompCapacityOffset.description>{0}降低{1}%</CancerCompCapacityOffset.description>
   <CancerCompGrowing.description>生长</CancerCompGrowing.description>
@@ -31,6 +30,4 @@
   <CancerCompSpreadsMutatesUpwards.description>向上传播且会变异</CancerCompSpreadsMutatesUpwards.description>
   <CancerCompSpreadsMutatesDownwards.description>向下传播且会变异</CancerCompSpreadsMutatesDownwards.description>
   <CancerCompMutatesSpreads.description>传播且会变异</CancerCompMutatesSpreads.description>
-
-
 </LanguageData>

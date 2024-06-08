@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
   <ThingDef Name="RadiologyMoteShield" ParentName="RadiologyMoteBase">
     <defName>RadiologyMoteShield</defName>
     <graphicData>
@@ -15,16 +13,20 @@
       <fadeOutTime>0.05</fadeOutTime>
     </mote>
   </ThingDef>
-  
   <RadiologyEffectSpawnerDef>
     <defName>RadiologyEffectShieldAbsorbed</defName>
-      
     <subEffects>
       <li Class="Radiology.AutomaticSubEffectRadial">
         <mote>RadiologyMoteShield</mote>
         <moteCount>1</moteCount>
-        <radius><min>0.5</min><max>0.5</max></radius>
-        <scale><min>1.75</min><max>1.75</max></scale>
+        <radius>
+          <min>0.5</min>
+          <max>0.5</max>
+        </radius>
+        <scale>
+          <min>1.75</min>
+          <max>1.75</max>
+        </scale>
         <speed>0.25</speed>
         <arc>0</arc>
       </li>
@@ -35,11 +37,11 @@
     <alsoSpawn>
       <li>RadiologyEffectSmoke</li>
     </alsoSpawn>
-
-    <offset><min>0</min><max>0</max></offset>
+    <offset>
+      <min>0</min>
+      <max>0</max>
+    </offset>
   </RadiologyEffectSpawnerDef>
-
-
   <ThingDef ParentName="RadiologyMoteBase">
     <defName>RadiologyMoteShieldPiece</defName>
     <graphicData>
@@ -53,17 +55,24 @@
       <fadeOutTime>0.75</fadeOutTime>
     </mote>
   </ThingDef>
-  
   <RadiologyEffectSpawnerDef>
     <defName>RadiologyEffectShieldBroken</defName>
-      
     <subEffects>
       <li Class="Radiology.AutomaticSubEffectRadial">
         <mote>RadiologyMoteShieldPiece</mote>
         <moteCount>12</moteCount>
-        <radius><min>0.4</min><max>0.6</max></radius>
-        <scale><min>0.15</min><max>0.65</max></scale>
-        <rotationRate><min>-720</min><max>720</max></rotationRate>
+        <radius>
+          <min>0.4</min>
+          <max>0.6</max>
+        </radius>
+        <scale>
+          <min>0.15</min>
+          <max>0.65</max>
+        </scale>
+        <rotationRate>
+          <min>-720</min>
+          <max>720</max>
+        </rotationRate>
         <speed>1.4</speed>
         <arc>120</arc>
       </li>
@@ -71,11 +80,11 @@
         <sound>EnergyShield_Broken</sound>
       </li>
     </subEffects>
-    <offset><min>0</min><max>0</max></offset>
+    <offset>
+      <min>0</min>
+      <max>0</max>
+    </offset>
   </RadiologyEffectSpawnerDef>
-
-
-
   <ThingDef ParentName="RadiologyMoteShield">
     <defName>RadiologyMoteShieldRestored</defName>
     <mote>
@@ -84,88 +93,77 @@
       <fadeOutTime>0.3</fadeOutTime>
     </mote>
   </ThingDef>
-
   <RadiologyEffectSpawnerDef>
     <defName>RadiologyEffectShieldRestored</defName>
-      
     <subEffects>
       <li Class="Radiology.AutomaticSubEffectRadial">
         <mote>RadiologyMoteShieldRestored</mote>
         <moteCount>12</moteCount>
-        <radius><min>1</min><max>1</max></radius>
-        <scale><min>1.75</min><max>1.75</max></scale>
+        <radius>
+          <min>1</min>
+          <max>1</max>
+        </radius>
+        <scale>
+          <min>1.75</min>
+          <max>1.75</max>
+        </scale>
         <speed>-0.25</speed>
       </li>
       <li Class="Radiology.AutomaticSubEffectSound">
         <sound>EnergyShield_Reset</sound>
       </li>
     </subEffects>
-
-    <offset><min>0</min><max>0</max></offset>
+    <offset>
+      <min>0</min>
+      <max>0</max>
+    </offset>
   </RadiologyEffectSpawnerDef>
-
   <HediffDef Abstract="True" Name="RadiologyPsionicShieldBase" ParentName="RadiologyMutation">
     <description>NAME has formed a psionic shield around self, allowing for protection from both ranged and melee damage.</description>
-    <relatedParts><li>Head</li></relatedParts>
-    <affectedParts><li>Brain</li></affectedParts>
+    <relatedParts>
+      <li>Head</li>
+    </relatedParts>
+    <affectedParts>
+      <li>Brain</li>
+    </affectedParts>
     <exclusive>psionicShield</exclusive>
-
     <health>100</health>
     <regenratedPerSecond>50</regenratedPerSecond>
     <regenerationDelayTicks>600</regenerationDelayTicks>
   </HediffDef>
-  
   <HediffDef Name="RadiologyPsionicShield" ParentName="RadiologyPsionicShieldBase" Class="Radiology.MutationPsionicShieldDef">
     <defName>MutationPsionicShield</defName>
     <label>psionic shield</label>
-    
-    <uselessAgainst><li>Burn</li></uselessAgainst>
-
+    <uselessAgainst>
+      <li>Burn</li>
+    </uselessAgainst>
     <effectAbsorbed>RadiologyEffectShieldAbsorbed</effectAbsorbed>
     <effectBroken>RadiologyEffectShieldBroken</effectBroken>
     <effectRestored>RadiologyEffectShieldRestored</effectRestored>
-    
     <health>100</health>
     <regenratedPerSecond>50</regenratedPerSecond>
   </HediffDef>
-
   <HediffDef ParentName="RadiologyPsionicShield" Class="Radiology.MutationPsionicShieldDef">
     <defName>MutationPsionicShieldSmall</defName>
     <label>small psionic shield</label>
-
     <health>40</health>
     <regenerationDelayTicks>200</regenerationDelayTicks>
   </HediffDef>
-
   <HediffDef ParentName="RadiologyPsionicShield" Class="Radiology.MutationPsionicShieldDef">
     <defName>MutationPsionicShieldSmall</defName>
     <label>large psionic shield</label>
-    
     <health>125</health>
     <regenratedPerSecond>40</regenratedPerSecond>
   </HediffDef>
-
   <HediffDef ParentName="RadiologyPsionicShield" Class="Radiology.MutationPsionicShieldDef">
     <defName>MutationPsionicShieldSmall</defName>
     <label>huge psionic shield</label>
-    
     <health>200</health>
     <regenratedPerSecond>10</regenratedPerSecond>
   </HediffDef>
-
-
-
-
-
-
-
-
-
-
-
   <SoundDef ParentName="RadiologySound">
-    <defName>RadiologyFireShield</defName>  
-    <maxSimultaneous>8</maxSimultaneous>  
+    <defName>RadiologyFireShield</defName>
+    <maxSimultaneous>8</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -173,12 +171,14 @@
             <clipFolderPath>Radiology/FireShield</clipFolderPath>
           </li>
         </grains>
-        <volumeRange><min>15</min><max>20</max></volumeRange>
+        <volumeRange>
+          <min>15</min>
+          <max>20</max>
+        </volumeRange>
         <sustainLoop>False</sustainLoop>
       </li>
     </subSounds>
   </SoundDef>
-
   <ThingDef ParentName="RadiologyMoteBase">
     <defName>RadiologyMoteFireShield</defName>
     <graphicData>
@@ -192,16 +192,20 @@
       <fadeOutTime>0.05</fadeOutTime>
     </mote>
   </ThingDef>
-  
   <RadiologyEffectSpawnerDef>
     <defName>RadiologyEffectFireShield</defName>
-      
     <subEffects>
       <li Class="Radiology.AutomaticSubEffectRadial">
         <mote>RadiologyMoteFireShield</mote>
         <moteCount>24</moteCount>
-        <radius><min>0.4</min><max>0.6</max></radius>
-        <scale><min>0.45</min><max>0.6</max></scale>
+        <radius>
+          <min>0.4</min>
+          <max>0.6</max>
+        </radius>
+        <scale>
+          <min>0.45</min>
+          <max>0.6</max>
+        </scale>
         <speed>0.25</speed>
         <arc>360</arc>
       </li>
@@ -212,18 +216,19 @@
     <alsoSpawn>
       <li>RadiologyEffectSmoke</li>
     </alsoSpawn>
-
-    <offset><min>0</min><max>0</max></offset>
+    <offset>
+      <min>0</min>
+      <max>0</max>
+    </offset>
   </RadiologyEffectSpawnerDef>
-
   <HediffDef ParentName="RadiologyPsionicShieldBase" Class="Radiology.MutationPsionicShieldDef">
     <defName>MutationFireShield</defName>
     <label>fire shield</label>
-    
-    <protectsAgainst><li>Burn</li><li>Flame</li></protectsAgainst>
+    <protectsAgainst>
+      <li>Burn</li>
+      <li>Flame</li>
+    </protectsAgainst>
     <effectAbsorbed>RadiologyEffectFireShield</effectAbsorbed>
-
     <health>0</health>
   </HediffDef>
-
 </Defs>
