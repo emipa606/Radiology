@@ -8,22 +8,14 @@ public class CompOrganicGlower : CompGlower
     private Map previousMap;
     private IntVec3 previousPosition;
 
-    public override void PostSpawnSetup(bool respawningAfterLoad)
-    {
-    }
-
-    public override void PostDeSpawn(Map map)
-    {
-    }
-
-    public void Register(Map map)
+    private void Register(Map map)
     {
         //map.mapDrawer.MapMeshDirty(parent.Position, MapMeshFlag.Things);
         map.mapDrawer.MapMeshDirty(parent.Position, MapMeshFlagDefOf.Things);
         map.glowGrid.RegisterGlower(this);
     }
 
-    public void Unregister(Map map)
+    private void Unregister(Map map)
     {
         map.glowGrid.DeRegisterGlower(this);
         if (parent != null)
@@ -35,7 +27,7 @@ public class CompOrganicGlower : CompGlower
         if (parent != null)
         {
             //map.glowGrid.MarkGlowGridDirty(parent.Position);
-            map.glowGrid.DirtyCache(parent.Position);
+            map.glowGrid.DirtyCell(parent.Position);
         }
     }
 
@@ -71,7 +63,7 @@ public class CompOrganicGlower : CompGlower
         }
 
         //map.glowGrid.MarkGlowGridDirty(parent.Position);
-        map.glowGrid.DirtyCache(parent.Position);
+        map.glowGrid.DirtyCell(parent.Position);
 
         previousPosition = parent.Position;
     }

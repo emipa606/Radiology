@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: get irradiated in -->
+  <RadiologyIrradiate.label>get irradiated in</RadiologyIrradiate.label>
+  <!-- EN: getting irradiated in -->
+  <RadiologyIrradiate.gerund>getting irradiated in</RadiologyIrradiate.gerund>
+  <!-- EN: get irradiated in -->
+  <RadiologyIrradiate.verb>get irradiated in</RadiologyIrradiate.verb>
+  <!-- EN: deliver prisoner to -->
+  <WorkGiverRadiologyIrradiatePrisoner.label>deliver prisoner to</WorkGiverRadiologyIrradiatePrisoner.label>
+  <!-- EN: delivering -->
+  <WorkGiverRadiologyIrradiatePrisoner.gerund>delivering</WorkGiverRadiologyIrradiatePrisoner.gerund>
+  <!-- EN: deliver -->
+  <WorkGiverRadiologyIrradiatePrisoner.verb>deliver</WorkGiverRadiologyIrradiatePrisoner.verb>
+</LanguageData>

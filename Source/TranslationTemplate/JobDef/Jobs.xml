@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: getting irradiated. -->
+  <RadiologyIrradiate.reportString>getting irradiated.</RadiologyIrradiate.reportString>
+  <!-- EN: delivering TargetA to irradiation chamber. -->
+  <RadiologyIrradiatePrisoner.reportString>delivering TargetA to irradiation chamber.</RadiologyIrradiatePrisoner.reportString>
+</LanguageData>

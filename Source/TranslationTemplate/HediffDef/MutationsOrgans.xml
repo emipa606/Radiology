@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bloated Heart -->
+  <MutationBloatedHeart.label>Bloated Heart</MutationBloatedHeart.label>
+  <!-- EN: The heart has transformed into a bloated fortress of blood. Colonist enjoys an immense increase in blood pumping capacity, and damage to the body produces large pools of blood. -->
+  <MutationBloatedHeart.description>The heart has transformed into a bloated fortress of blood. Colonist enjoys an immense increase in blood pumping capacity, and damage to the body produces large pools of blood.</MutationBloatedHeart.description>
+  <!-- EN: Brain Mutation -->
+  <MutationBrain.label>Brain Mutation</MutationBrain.label>
+  <!-- EN: Colonist's brain has mutated, causing the synapses to fire quicker and more efficiently, making him perform better overall. -->
+  <MutationBrain.description>Colonist's brain has mutated, causing the synapses to fire quicker and more efficiently, making him perform better overall.</MutationBrain.description>
+  <!-- EN: Brain Damage -->
+  <MutationBrainDamage.label>Brain Damage</MutationBrainDamage.label>
+  <!-- EN: Colonist's brain tissue has deteriorated, causing the synapses to fire slower and less efficiently, causing him to become deaf and mute. -->
+  <MutationBrainDamage.description>Colonist's brain tissue has deteriorated, causing the synapses to fire slower and less efficiently, causing him to become deaf and mute.</MutationBrainDamage.description>
+  <!-- EN: Damaged Hearing -->
+  <MutationDamagedHearing.label>Damaged Hearing</MutationDamagedHearing.label>
+  <!-- EN: Colonist's ears have been damaged leaving him with poor hearing. -->
+  <MutationDamagedHearing.description>Colonist's ears have been damaged leaving him with poor hearing.</MutationDamagedHearing.description>
+  <!-- EN: Damaged Lungs -->
+  <MutationDamagedLung.label>Damaged Lungs</MutationDamagedLung.label>
+  <!-- EN: The radiation has destroyed much of colonist's lung tissue making it difficult for him to breathe. -->
+  <MutationDamagedLung.description>The radiation has destroyed much of colonist's lung tissue making it difficult for him to breathe.</MutationDamagedLung.description>
+  <!-- EN: Damaged Vision -->
+  <MutationDamagedVision.label>Damaged Vision</MutationDamagedVision.label>
+  <!-- EN: Colonist's eye tissue has been damaged, leaving his eye useless. If both eyes are damaged, colonist will go blind. -->
+  <MutationDamagedVision.description>Colonist's eye tissue has been damaged, leaving his eye useless. If both eyes are damaged, colonist will go blind.</MutationDamagedVision.description>
+  <!-- EN: Enhanced Hearing -->
+  <MutationEnhancedHearing.label>Enhanced Hearing</MutationEnhancedHearing.label>
+  <!-- EN: Colonist's ears have mutated, allowing him to hear more clearly and sharply. This allows him to have better reflexes. -->
+  <MutationEnhancedHearing.description>Colonist's ears have mutated, allowing him to hear more clearly and sharply. This allows him to have better reflexes.</MutationEnhancedHearing.description>
+  <!-- EN: Enhanced Lungs -->
+  <MutationEnhancedLungs.label>Enhanced Lungs</MutationEnhancedLungs.label>
+  <!-- EN: The radiation has strengthened the tissues and muscle in colonist's lungs and diaphram, causing his breathing to become unhuman. -->
+  <MutationEnhancedLungs.description>The radiation has strengthened the tissues and muscle in colonist's lungs and diaphram, causing his breathing to become unhuman.</MutationEnhancedLungs.description>
+  <!-- EN: Strengthened Heart -->
+  <MutationStrengthenedHeart.label>Strengthened Heart</MutationStrengthenedHeart.label>
+  <!-- EN: The muscle tissue has woven itself in such a way that colonist's heart has strengthened and become superior. -->
+  <MutationStrengthenedHeart.description>The muscle tissue has woven itself in such a way that colonist's heart has strengthened and become superior.</MutationStrengthenedHeart.description>
+  <!-- EN: Super Vision -->
+  <MutationSuperVision.label>Super Vision</MutationSuperVision.label>
+  <!-- EN: Colonist's eye has mutated, allowing him to see more clearly and sharply. This allows colonist to have better reflexes and improves perception. -->
+  <MutationSuperVision.description>Colonist's eye has mutated, allowing him to see more clearly and sharply. This allows colonist to have better reflexes and improves perception.</MutationSuperVision.description>
+  <!-- EN: Weakened Heart -->
+  <MutationWeakenedHeart.label>Weakened Heart</MutationWeakenedHeart.label>
+  <!-- EN: The muscle tissue has been weakened and damaged by the radiation, making colonist's body part less efficient and damaged. -->
+  <MutationWeakenedHeart.description>The muscle tissue has been weakened and damaged by the radiation, making colonist's body part less efficient and damaged.</MutationWeakenedHeart.description>
+</LanguageData>

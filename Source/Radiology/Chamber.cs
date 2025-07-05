@@ -9,17 +9,17 @@ namespace Radiology;
 
 public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
 {
-    public readonly RadiationTracker radiationTracker = new RadiationTracker();
-    public HashSet<Pawn> assigned = [];
-    public Pawn currentUser;
-    public float damageThreshold = 0.5f;
+    public readonly RadiationTracker radiationTracker = new();
+    private HashSet<Pawn> assigned = [];
+    private Pawn currentUser;
+    private float damageThreshold = 0.5f;
 
     private CompAffectedByFacilities facilitiesComp;
     public MutationDef lastMutation;
     public int lastMutationTick;
     private CompPowerTrader powerComp;
 
-    public int ticksCooldown;
+    private int ticksCooldown;
     public new ChamberDef def => base.def as ChamberDef;
 
     public Building Building => this;
@@ -69,7 +69,7 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
 
         var count = 0;
         string intermediateProblem = null;
-        foreach (var comp in GetIrradiators())
+        foreach (var comp in getIrradiators())
         {
             var problem = comp.CanIrradiateNow(pawn);
             if (problem == null)
@@ -87,7 +87,7 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
             return intermediateProblem ?? "ChamberNoIrradiator";
         }
 
-        if (pawn != null && !IsHealthyEnoughForIrradiation(pawn))
+        if (pawn != null && !isHealthyEnoughForIrradiation(pawn))
         {
             return "ChamberPawnIsHurt";
         }
@@ -106,7 +106,7 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
         return null;
     }
 
-    private IEnumerable<CompIrradiator> GetIrradiators()
+    private IEnumerable<CompIrradiator> getIrradiators()
     {
         foreach (var v in facilitiesComp.LinkedFacilitiesListForReading)
         {
@@ -122,7 +122,7 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
         }
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
 
@@ -132,7 +132,7 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
         }
     }
 
-    public BodyPartRecord GetBodyPart(Pawn pawn)
+    private BodyPartRecord getBodyPart(Pawn pawn)
     {
         if (pawn == null)
         {
@@ -154,11 +154,11 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
         var room = Position.GetRoom(Map);
         var actualPawn = Map.mapPawns.AllPawns.Where(x => x.GetRoom() == room).RandomElementWithFallback(pawn);
 
-        foreach (var comp in GetIrradiators())
+        foreach (var comp in getIrradiators())
         {
             var info = new RadiationInfo
             {
-                chamberDef = def, pawn = actualPawn, part = GetBodyPart(actualPawn), secondHand = actualPawn != pawn,
+                chamberDef = def, pawn = actualPawn, part = getBodyPart(actualPawn), secondHand = actualPawn != pawn,
                 visited = []
             };
             comp.Irradiate(this, info, ticksCooldown);
@@ -181,13 +181,13 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
             radiation.normal += info.normal;
             radiation.rare += info.rare;
 
-            ApplyBurn(actualPawn, radiation);
-            ApplyMutation(actualPawn, radiation);
+            applyBurn(actualPawn, radiation);
+            applyMutation(actualPawn, radiation);
         }
     }
 
 
-    public void ApplyBurn(Pawn pawn, HediffRadiation radiation)
+    private void applyBurn(Pawn pawn, HediffRadiation radiation)
     {
         var burnAmount = def.burnThreshold.RandomInRange;
         if (radiation.burn < burnAmount)
@@ -197,13 +197,12 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
 
         radiation.burn -= burnAmount;
 
-        var dinfo = new DamageInfo(DamageDefOf.Burn, burnAmount, 999999f, -1f, this, radiation.Part);
-        pawn.TakeDamage(dinfo);
+        pawn.TakeDamage(new DamageInfo(DamageDefOf.Burn, burnAmount, 999999f, -1f, this, radiation.Part));
 
         RadiologyEffectSpawnerDef.Spawn(def.burnEffect, pawn);
     }
 
-    public void ApplyMutation(Pawn pawn, HediffRadiation radiation)
+    private void applyMutation(Pawn pawn, HediffRadiation radiation)
     {
         if (radiation.normal + radiation.rare <= def.mutateThreshold.RandomInRange)
         {
@@ -214,10 +213,10 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
         radiation.rare = 0;
         radiation.normal = 0;
 
-        SpawnMutation(pawn, radiation.Part, ratio, radiation);
+        spawnMutation(pawn, radiation.Part, ratio, radiation);
     }
 
-    public void SpawnMutation(Pawn pawn, BodyPartRecord part, float ratio, HediffRadiation radiation = null)
+    private void spawnMutation(Pawn pawn, BodyPartRecord part, float ratio, HediffRadiation radiation = null)
     {
         var mutatedParts = RadiationHelper.MutatePawn(pawn, part, ratio, out var mutation);
         lastMutation = mutation.def;
@@ -241,7 +240,7 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
     }
 
 
-    public bool IsHealthyEnoughForIrradiation(Pawn pawn)
+    private bool isHealthyEnoughForIrradiation(Pawn pawn)
     {
         var pawnParts = pawn.health.hediffSet.GetNotMissingParts();
         var parts = def.bodyParts.Join(pawnParts, left => left.part, right => right.def, (_, right) => right);
@@ -323,7 +322,7 @@ public class Chamber : Building, ISelectMultiple<Pawn>, IRadiationReciever
             yield return new Command_Action
             {
                 defaultLabel = $"Dev: mutate {currentUser.Name}",
-                action = delegate { SpawnMutation(currentUser, GetBodyPart(currentUser), 0.5f); }
+                action = delegate { spawnMutation(currentUser, getBodyPart(currentUser), 0.5f); }
             };
         }
     }

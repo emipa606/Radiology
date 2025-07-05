@@ -1,10 +1,12 @@
-﻿namespace Radiology;
+﻿using Verse;
+
+namespace Radiology;
 
 public class CompFilterOperationModeBasic : CompFilterOperationMode
 {
     public CompFilterOperationModeBasic()
     {
-        Label = "filter out 20% of burn radiation and 10% of others";
+        Label = "RadiologyFilter20PlusPercent".Translate();
     }
 
     public override void Modify(ref RadiationInfo info)

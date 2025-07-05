@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: nice-looking -->
+  <RadiologyMutationBeautiful.stages.nicelooking.label>nice-looking</RadiologyMutationBeautiful.stages.nicelooking.label>
+  <!-- EN: pretty -->
+  <RadiologyMutationBeautiful.stages.pretty.label>pretty</RadiologyMutationBeautiful.stages.pretty.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-0.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-0.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-1.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-1.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-2.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-2.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-3.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-3.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-4.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-4.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-5.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-5.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-6.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-6.label>
+  <!-- EN: beautiful -->
+  <RadiologyMutationBeautiful.stages.beautiful-7.label>beautiful</RadiologyMutationBeautiful.stages.beautiful-7.label>
+  <!-- EN: mutant -->
+  <RadiologyMutationUgly.stages.mutant.label>mutant</RadiologyMutationUgly.stages.mutant.label>
+  <!-- EN: creepy mutant -->
+  <RadiologyMutationUgly.stages.creepy_mutant.label>creepy mutant</RadiologyMutationUgly.stages.creepy_mutant.label>
+  <!-- EN: detestable mutant -->
+  <RadiologyMutationUgly.stages.detestable_mutant.label>detestable mutant</RadiologyMutationUgly.stages.detestable_mutant.label>
+  <!-- EN: revolting mutant -->
+  <RadiologyMutationUgly.stages.revolting_mutant.label>revolting mutant</RadiologyMutationUgly.stages.revolting_mutant.label>
+  <!-- EN: disgusting mutant -->
+  <RadiologyMutationUgly.stages.disgusting_mutant.label>disgusting mutant</RadiologyMutationUgly.stages.disgusting_mutant.label>
+  <!-- EN: hideous mutant -->
+  <RadiologyMutationUgly.stages.hideous_mutant.label>hideous mutant</RadiologyMutationUgly.stages.hideous_mutant.label>
+  <!-- EN: horrid mutant -->
+  <RadiologyMutationUgly.stages.horrid_mutant.label>horrid mutant</RadiologyMutationUgly.stages.horrid_mutant.label>
+  <!-- EN: abominable mutant -->
+  <RadiologyMutationUgly.stages.abominable_mutant.label>abominable mutant</RadiologyMutationUgly.stages.abominable_mutant.label>
+  <!-- EN: repugnant mutant -->
+  <RadiologyMutationUgly.stages.repugnant_mutant.label>repugnant mutant</RadiologyMutationUgly.stages.repugnant_mutant.label>
+  <!-- EN: abhorrent mutant -->
+  <RadiologyMutationUgly.stages.abhorrent_mutant.label>abhorrent mutant</RadiologyMutationUgly.stages.abhorrent_mutant.label>
+</LanguageData>

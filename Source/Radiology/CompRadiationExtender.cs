@@ -6,12 +6,12 @@ namespace Radiology;
 
 internal class CompRadiationExtender : CompIrradiator, IRadiationReciever
 {
-    public CompPropertiesIrradiator moteProps;
+    private CompPropertiesIrradiator moteProps;
 
     public override CompPropertiesIrradiator MoteProps => moteProps;
     public Building Building => parent as Building;
 
-    private IEnumerable<CompIrradiator> GetIrradiators()
+    private IEnumerable<CompIrradiator> getIrradiators()
     {
         foreach (var v in parent.GetComp<CompAffectedByFacilities>().LinkedFacilitiesListForReading)
         {
@@ -29,7 +29,7 @@ internal class CompRadiationExtender : CompIrradiator, IRadiationReciever
 
     protected override void CreateRadiation(RadiationInfo fullInfo, int ticks)
     {
-        foreach (var comp in GetIrradiators().InRandomOrder())
+        foreach (var comp in getIrradiators().InRandomOrder())
         {
             var info = new RadiationInfo();
             info.CopyFrom(fullInfo);

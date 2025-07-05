@@ -6,9 +6,9 @@ namespace Radiology;
 
 internal class CompMutationMonitor : ThingComp
 {
-    public static readonly float dx = 0f / 64;
-    public static readonly float dz = -10f / 64;
-    public static Vector3 scale = new Vector3(45f / 64, 1, 33f / 64);
+    private static readonly float dx = 0f / 64;
+    private static readonly float dz = -10f / 64;
+    private static readonly Vector3 scale = new(45f / 64, 1, 33f / 64);
     private readonly Color colorBad = new ColorInt(178, 80, 8).ToColor;
 
     private readonly Color colorGood = new ColorInt(79, 187, 37).ToColor;
@@ -48,21 +48,21 @@ internal class CompMutationMonitor : ThingComp
         vec.y += 1;
         vec.z += -dz;
 
-        var elasped = Find.TickManager.TicksGame - chamber.lastMutationTick;
+        var elapsed = Find.TickManager.TicksGame - chamber.lastMutationTick;
         float colorAmount;
 
-        if (elasped < durationFlashing + durationFadeoff)
+        if (elapsed < durationFlashing + durationFadeoff)
         {
-            var add = 0.5f;
-            var mult = 0.5f;
-            if (elasped > durationFlashing)
+            const float add = 0.5f;
+            var multi = 0.5f;
+            if (elapsed > durationFlashing)
             {
-                var v = 1f - (1f * (elasped - durationFlashing) / durationFlashing);
-                mult *= v;
+                var v = 1f - (1f * (elapsed - durationFlashing) / durationFlashing);
+                multi *= v;
             }
 
-            var x = (Mathf.Sin(elasped / 6f) + 1) * 0.5f;
-            colorAmount = add + (mult * x);
+            var x = (Mathf.Sin(elapsed / 6f) + 1) * 0.5f;
+            colorAmount = add + (multi * x);
         }
         else
         {

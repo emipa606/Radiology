@@ -6,10 +6,10 @@ namespace Radiology;
 [StaticConstructorOnStartup]
 internal static class DrawHelper
 {
-    private static readonly MaterialPropertyBlock propertyBlock = new MaterialPropertyBlock();
+    private static readonly MaterialPropertyBlock propertyBlock = new();
     private static Matrix4x4 matrix;
 
-    public static void DrawMesh(Matrix4x4 matrix, Material matSingle, Color color)
+    private static void DrawMesh(Matrix4x4 matrix, Material matSingle, Color color)
     {
         propertyBlock.SetColor(ShaderPropertyIDs.Color, color);
         Graphics.DrawMesh(MeshPool.plane10, matrix, matSingle, -1, null, 0, propertyBlock);

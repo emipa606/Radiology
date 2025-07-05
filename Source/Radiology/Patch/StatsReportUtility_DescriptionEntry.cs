@@ -16,7 +16,7 @@ internal class StatsReportUtility_DescriptionEntry
             return entry;
         }
 
-        var listers = t.Comps().OfType<IDefHyperlinkLister>();
+        var listers = t.Comps().OfType<IDefHyperlinkLister>().ToArray();
         if (!listers.Any())
         {
             return entry;

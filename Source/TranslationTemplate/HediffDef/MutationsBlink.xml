@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: blink -->
+  <MutationBlink.label>blink</MutationBlink.label>
+  <!-- EN: A deformation of an unknown origin in the body part is causing colonist to periodically shift in and out of existance, reappearing at a different location, uncontrollably. -->
+  <MutationBlink.description>A deformation of an unknown origin in the body part is causing colonist to periodically shift in and out of existance, reappearing at a different location, uncontrollably.</MutationBlink.description>
+  <!-- EN: aimed blink -->
+  <MutationBlinkAimed.label>aimed blink</MutationBlinkAimed.label>
+  <!-- EN: A deformation of an unknown origin in the body part is allowing colonist to shift in and out of existance, reappearing at a desired location, at will. -->
+  <MutationBlinkAimed.description>A deformation of an unknown origin in the body part is allowing colonist to shift in and out of existance, reappearing at a desired location, at will.</MutationBlinkAimed.description>
+  <!-- EN: controllable blink -->
+  <MutationBlinkControlled.label>controllable blink</MutationBlinkControlled.label>
+  <!-- EN: A deformation of an unknown origin in the body part is allowing colonist to shift in and out of existance, reappearing at a different location, at will. Colonist is not able to control where he'll reappear. -->
+  <MutationBlinkControlled.description>A deformation of an unknown origin in the body part is allowing colonist to shift in and out of existance, reappearing at a different location, at will. Colonist is not able to control where he'll reappear.</MutationBlinkControlled.description>
+</LanguageData>

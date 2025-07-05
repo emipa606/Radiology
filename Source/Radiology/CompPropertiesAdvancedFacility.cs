@@ -6,8 +6,8 @@ namespace Radiology;
 
 public class CompPropertiesAdvancedFacility : CompProperties_Facility, IAdvancedFacilityConnector
 {
-    public readonly bool mustBeFaced = false;
-    public readonly bool mustBeFacing = false;
+    private readonly bool mustBeFaced = false;
+    private readonly bool mustBeFacing = false;
 
     public CompPropertiesAdvancedFacility()
     {
@@ -22,9 +22,9 @@ public class CompPropertiesAdvancedFacility : CompProperties_Facility, IAdvanced
             return false;
         }
 
-        GetCoordinates(myDef, myPos, myRot, out var mx1, out var mz1, out var mx2, out var mz2);
+        getCoordinates(myDef, myPos, myRot, out var mx1, out var mz1, out var mx2, out var mz2);
 
-        GetCoordinates(facilityDef, facilityPos, facilityRot, out var fx1, out var fz1, out var fx2, out var fz2);
+        getCoordinates(facilityDef, facilityPos, facilityRot, out var fx1, out var fz1, out var fx2, out var fz2);
 
         if (!myDef.rotatable && facilityDef.rotatable)
         {
@@ -117,13 +117,9 @@ public class CompPropertiesAdvancedFacility : CompProperties_Facility, IAdvanced
         return MathHelper.IsBetween(fx1, mx1, mx2) || MathHelper.IsBetween(fx2, mx1, mx2);
     }
 
-    private static IntVec2 RotatedSize(ThingDef def, Rot4 rot)
-    {
-        return !rot.IsHorizontal ? def.size : new IntVec2(def.size.z, def.size.x);
-    }
 
-
-    private void GetCoordinates(ThingDef def, IntVec3 pos, Rot4 rot, out int x1, out int z1, out int x2, out int z2)
+    private static void getCoordinates(ThingDef def, IntVec3 pos, Rot4 rot, out int x1, out int z1, out int x2,
+        out int z2)
     {
         x1 = pos.x;
         z1 = pos.z;

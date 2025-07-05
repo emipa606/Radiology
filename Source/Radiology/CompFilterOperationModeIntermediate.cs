@@ -1,10 +1,12 @@
-﻿namespace Radiology;
+﻿using Verse;
+
+namespace Radiology;
 
 public class CompFilterOperationModeIntermediate : CompFilterOperationMode
 {
     public CompFilterOperationModeIntermediate()
     {
-        Label = "filter out 30% of burn radiation and 15% of others";
+        Label = "RadiologyFilter30PlusPercent".Translate();
         Prerequisite = ResearchDefOf.RadiologyFilteringIntermediate;
     }
 

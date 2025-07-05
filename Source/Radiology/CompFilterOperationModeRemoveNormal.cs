@@ -1,10 +1,12 @@
-﻿namespace Radiology;
+﻿using Verse;
+
+namespace Radiology;
 
 public class CompFilterOperationModeRemoveNormal : CompFilterOperationMode
 {
     public CompFilterOperationModeRemoveNormal()
     {
-        Label = "filter out 20% of normal radiation";
+        Label = "RadiologyFilter20Percent".Translate();
     }
 
     public override void Modify(ref RadiationInfo info)

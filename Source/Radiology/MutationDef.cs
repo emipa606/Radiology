@@ -10,7 +10,7 @@ public class MutationDef : HediffDef
 
     public readonly int beauty = 0;
 
-    public readonly GraphicData icon = new GraphicData();
+    public readonly GraphicData icon = new();
 
     public readonly float likelihood = 1.0f;
     public List<BodyPartDef> affectedParts;
@@ -43,20 +43,14 @@ public class MutationDef : HediffDef
     {
         base.PostLoad();
 
-        if (exclusives == null)
-        {
-            exclusives = [];
-        }
+        exclusives ??= [];
 
         if (exclusive != null)
         {
             exclusives.Add(exclusive);
         }
 
-        if (exclusivesGlobal == null)
-        {
-            exclusivesGlobal = [];
-        }
+        exclusivesGlobal ??= [];
 
         if (exclusiveGlobal != null)
         {
@@ -65,10 +59,7 @@ public class MutationDef : HediffDef
 
         if (stage != null)
         {
-            if (stages == null)
-            {
-                stages = [];
-            }
+            stages ??= [];
 
             stages.Add(stage);
         }

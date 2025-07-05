@@ -5,12 +5,12 @@ namespace Radiology;
 
 public class AutomaticSubEffectRadial : AutomaticSubEffect
 {
-    public readonly float arc = 360f;
+    private readonly float arc = 360f;
     public ThingDef mote;
     public int moteCount;
-    public FloatRange radius;
-    public FloatRange rotationRate;
-    public FloatRange scale;
+    private FloatRange radius;
+    private FloatRange rotationRate;
+    private FloatRange scale;
     public float speed;
 
     public override void Spawn(Map map, Vector3 origin, float initialAngle)

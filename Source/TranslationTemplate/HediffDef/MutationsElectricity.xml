@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: battery -->
+  <MutationBattery.label>battery</MutationBattery.label>
+  <!-- EN: The body part has strangely evolved to absorb and release electricity from nearby exposed conductors through thin air. -->
+  <MutationBattery.description>The body part has strangely evolved to absorb and release electricity from nearby exposed conductors through thin air.</MutationBattery.description>
+  <!-- EN: battery -->
+  <MutationBatteryBrain.label>battery</MutationBatteryBrain.label>
+  <!-- EN: The brain has mutated to absorb electricity from nearby exposed conductors through thin air and use it to improve its general performance. However, without electricity, the perfomance is worse than baseline. -->
+  <MutationBatteryBrain.description>The brain has mutated to absorb electricity from nearby exposed conductors through thin air and use it to improve its general performance. However, without electricity, the perfomance is worse than baseline.</MutationBatteryBrain.description>
+  <!-- EN: battery -->
+  <MutationBatteryHeart.label>battery</MutationBatteryHeart.label>
+  <!-- EN: The heart has mutated to absorb electricity from nearby exposed conductors through thin air and use it to improve blood pumping. However, without electricity, the perfomance is worse than baseline. -->
+  <MutationBatteryHeart.description>The heart has mutated to absorb electricity from nearby exposed conductors through thin air and use it to improve blood pumping. However, without electricity, the perfomance is worse than baseline.</MutationBatteryHeart.description>
+  <!-- EN: battery -->
+  <MutationBatteryLeg.label>battery</MutationBatteryLeg.label>
+  <!-- EN: The leg has mutated to absorb electricity from nearby exposed conductors through thin air and use it to improve its general performance, allowing colonist to move faster. However, without electricity, the perfomance is worse than baseline. -->
+  <MutationBatteryLeg.description>The leg has mutated to absorb electricity from nearby exposed conductors through thin air and use it to improve its general performance, allowing colonist to move faster. However, without electricity, the perfomance is worse than baseline.</MutationBatteryLeg.description>
+</LanguageData>

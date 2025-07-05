@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: radiology -->
+  <RadiologyBasic.label>radiology</RadiologyBasic.label>
+  <!-- EN: Build radiology chamber and use irradiators to bombard your colonists with harmful radiation. -->
+  <RadiologyBasic.description>Build radiology chamber and use irradiators to bombard your colonists with harmful radiation.</RadiologyBasic.description>
+  <!-- EN: radiation blocking -->
+  <RadiologyBlocking.label>radiation blocking</RadiologyBlocking.label>
+  <!-- EN: Build a blocker that makes it possible to stop radiation passing through it from reaching certain body parts. -->
+  <RadiologyBlocking.description>Build a blocker that makes it possible to stop radiation passing through it from reaching certain body parts.</RadiologyBlocking.description>
+  <!-- EN: advanced blocking -->
+  <RadiologyBlockingAdvanced.label>advanced blocking</RadiologyBlockingAdvanced.label>
+  <!-- EN: Build an advanced variation of blocker that has a better chance of deflecting radiation and lets you select more body parts to protect. -->
+  <RadiologyBlockingAdvanced.description>Build an advanced variation of blocker that has a better chance of deflecting radiation and lets you select more body parts to protect.</RadiologyBlockingAdvanced.description>
+  <!-- EN: intermediate blocking -->
+  <RadiologyBlockingIntermediate.label>intermediate blocking</RadiologyBlockingIntermediate.label>
+  <!-- EN: Build an intermediate variation of blocker that has a better chance of deflecting radiation and lets you select more body parts to protect. -->
+  <RadiologyBlockingIntermediate.description>Build an intermediate variation of blocker that has a better chance of deflecting radiation and lets you select more body parts to protect.</RadiologyBlockingIntermediate.description>
+  <!-- EN: radiation filtering -->
+  <RadiologyFiltering.label>radiation filtering</RadiologyFiltering.label>
+  <!-- EN: Build a filter that makes it possible to alter radiation passing through it. -->
+  <RadiologyFiltering.description>Build a filter that makes it possible to alter radiation passing through it.</RadiologyFiltering.description>
+  <!-- EN: advanced filtering -->
+  <RadiologyFilteringAdvanced.label>advanced filtering</RadiologyFilteringAdvanced.label>
+  <!-- EN: Unlocks additional operation modes for a filter. -->
+  <RadiologyFilteringAdvanced.description>Unlocks additional operation modes for a filter.</RadiologyFilteringAdvanced.description>
+  <!-- EN: intermediate filtering -->
+  <RadiologyFilteringIntermediate.label>intermediate filtering</RadiologyFilteringIntermediate.label>
+  <!-- EN: Unlocks additional operation modes for a filter. -->
+  <RadiologyFilteringIntermediate.description>Unlocks additional operation modes for a filter.</RadiologyFilteringIntermediate.description>
+  <!-- EN: tradeoff filtering -->
+  <RadiologyFilteringTradeoff.label>tradeoff filtering</RadiologyFilteringTradeoff.label>
+  <!-- EN: Unlocks additional operation modes for a filter. -->
+  <RadiologyFilteringTradeoff.description>Unlocks additional operation modes for a filter.</RadiologyFilteringTradeoff.description>
+  <!-- EN: intermediate radiology -->
+  <RadiologyIntermediate.label>intermediate radiology</RadiologyIntermediate.label>
+  <!-- EN: Build an improved version of irradiator. -->
+  <RadiologyIntermediate.description>Build an improved version of irradiator.</RadiologyIntermediate.description>
+  <!-- EN: radiation monitor -->
+  <RadiologyMonitoring.label>radiation monitor</RadiologyMonitoring.label>
+  <!-- EN: Build a monitor that allows to see detailed information about what kind of radiation is being applied at a chamber. -->
+  <RadiologyMonitoring.description>Build a monitor that allows to see detailed information about what kind of radiation is being applied at a chamber.</RadiologyMonitoring.description>
+</LanguageData>

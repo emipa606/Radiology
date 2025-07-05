@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: volatile -->
+  <MutationVolatileArms.label>volatile</MutationVolatileArms.label>
+  <!-- EN: A critical mass of highly explosive material has formed in colonist's body part. Direct damage to it might cause an explosion. -->
+  <MutationVolatileArms.description>A critical mass of highly explosive material has formed in colonist's body part. Direct damage to it might cause an explosion.</MutationVolatileArms.description>
+</LanguageData>

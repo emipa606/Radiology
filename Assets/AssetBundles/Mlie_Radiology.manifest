@@ -1,0 +1,140 @@
+ManifestFileVersion: 0
+CRC: 2457739056
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d405efafa9a5b51a945823887a934543
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d405efafa9a5b51a945823887a934543
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationGreenThumb.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBattery.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/Burn/2.ogg
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/FireShield.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/MutationCloud.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Blink/3.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/RegenerationBlood.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Irradiator2_north.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationCarapace.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBrainDamage.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/ShieldFire.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/IrradiateBasic.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationCrippledLeg.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationRottenHand.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Irradiator_east.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Cord.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/MonitorRadiation.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Icons/TestRun.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Burn.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Debris.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationRegeneration.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationStrengthenedHeart.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationRippedShoulders.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Extender.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationHandBlade.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationGlowGreen.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBrewery.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Irradiator_south.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationPsionicShieldLarge.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Parts/Horns_south.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Barrier_east.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Parts/Horns_north.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationVomitComponent.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBlinkControlled.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Timer.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBloodlust.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Filter_north.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Barrier3_east.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Impact.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBloatedHeart.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Icons/Info.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/CarapaceImpact.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/RadiologyCancer.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationTumorousHand.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationShootingBoost.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/MoteRadiationDirected.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationGlow.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationVolatileArms.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationStrengthenedArm.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Icons/SetupBlocking.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/mutations.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationHorns.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Barrier2_north.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Irradiator2_south.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationRegenerationLesser.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/AirPuff.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBlink.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationWeakenedHeart.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationPsionicShieldHuge.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBerserkerMinor.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Blink/2.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/ShieldPiece.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Blink/6.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Blink/5.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Irradiator_north.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationSuperSpeed.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/Burn/1.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Barrier3_north.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBatteryHeart.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Barrier2_east.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationPsionicShield.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBloodBlade.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationGlowRed.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationNightDweller.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationEnhancedHearing.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/CancerMale.ogg
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/RegenerationBlood.ogg
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/Mutate/1.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Filter_east.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationSuperVision.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Regeneration.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Parts/Horns.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationDamagedLung.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationVomitSilver.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/ElectricitySpark.ogg
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/Regeneration.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Mutate.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/MonitorHealth.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/MoteRadiation.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationGlowBlue.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/ChamberIcon.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBatteryLeg.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBrain.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/Burn/3.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationVomitSteel.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Icons/SetupFiltering.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Chamber.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationEnhancedLungs.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Barrier_north.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBatteryBrain.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Blink/4.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationPsionicShieldSmall.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/CancerFemale.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationEnhancedDex.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Icons/BlinkIcon.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationDamagedVision.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationWeakenedArm.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Parts/Horns_east.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Blink/1.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Items/MutatedBodyPartBox.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/Blink.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationBlinkAimed.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Cancer.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationDamagedHearing.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/MonitorMutation.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Buildings/Irradiator2_east.png
+- Assets/Data/Mlie.Radiology/Sounds/Radiology/Heart.ogg
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Effects/Shield.png
+- Assets/Data/Mlie.Radiology/Textures/Radiology/Mutations/MutationVomitMarbleBricks.png
+Dependencies: []

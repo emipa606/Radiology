@@ -6,11 +6,6 @@ namespace Radiology;
 
 public static class Debug
 {
-    public static void Log(object o)
-    {
-        Verse.Log.Warning($"{o}");
-    }
-
     public static string AsText(IEnumerable obj)
     {
         var builder = new StringBuilder();

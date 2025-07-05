@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: carapace -->
+  <MutationCarapace.label>carapace</MutationCarapace.label>
+  <!-- EN: A hard carapace has formed on colonist' back side, causing all incoming damage from behind and side to be halved. -->
+  <MutationCarapace.description>A hard carapace has formed on colonist' back side, causing all incoming damage from behind and side to be halved.</MutationCarapace.description>
+</LanguageData>

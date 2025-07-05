@@ -3,5 +3,12 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "SocialImageSet": true,
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-07-05T14:55:23.8386564+02:00",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 165452.0,
+  "LinesOfXML": 113293.0,
+  "SearchTags": " body modifications"
 }

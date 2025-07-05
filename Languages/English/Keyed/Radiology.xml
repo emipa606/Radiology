@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <CommandRadiologyAssignChamberLabel>Assign</CommandRadiologyAssignChamberLabel>
   <CommandRadiologyAssignChamberDesc>Assign this chamber to be used by specific colonists.</CommandRadiologyAssignChamberDesc>
@@ -52,4 +52,13 @@
   <RadiologyTooltipHis>his</RadiologyTooltipHis>
   <RadiologyTooltipSkillDisabled>disabled</RadiologyTooltipSkillDisabled>
   <RadiologyLastMutation>Last mutation: {0}, {1} ago</RadiologyLastMutation>
+  <RadiologyFilter20Percent>filter out 20% of normal radiation</RadiologyFilter20Percent>
+  <RadiologyFilter30Percent>filter out 30% of normal radiation</RadiologyFilter30Percent>
+  <RadiologyFilter5Times>use rare radiation to filter out 5x normal radiation</RadiologyFilter5Times>
+  <RadiologyFilter5TimesBurn>use rare radiation to filter out 5x burn radiation</RadiologyFilter5TimesBurn>
+  <RadiologyFilter40Percent>filter out 40% of normal radiation</RadiologyFilter40Percent>
+  <RadiologyFilter40PlusPercent>filter out 40% of burn radiation and 20% of others</RadiologyFilter40PlusPercent>
+  <RadiologyFilter20PlusPercent>filter out 20% of burn radiation and 10% of others</RadiologyFilter20PlusPercent>
+  <RadiologyFilter30PlusPercent>filter out 30% of burn radiation and 15% of others</RadiologyFilter30PlusPercent>
+  <RadiologyFilterDouble>double all radiation</RadiologyFilterDouble>
 </LanguageData>

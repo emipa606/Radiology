@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brewery -->
+  <MutationBrewery.label>brewery</MutationBrewery.label>
+  <!-- EN: A brewery has formed in the stomach of the colonist, effectively rendering him drunk at all times. -->
+  <MutationBrewery.description>A brewery has formed in the stomach of the colonist, effectively rendering him drunk at all times.</MutationBrewery.description>
+  <!-- EN: component factory -->
+  <MutationVomitComponent.label>component factory</MutationVomitComponent.label>
+  <!-- EN: Colonist's body part has mutated to produce miscellaneous gears, capacitors, circuit boards, tubes, wheels, sensors, wires, chips, processors, and other electronic and industrial parts. Some of the product is ejected during vomiting conveniently allowing for assembly of complex machines or electronics. -->
+  <MutationVomitComponent.description>Colonist's body part has mutated to produce miscellaneous gears, capacitors, circuit boards, tubes, wheels, sensors, wires, chips, processors, and other electronic and industrial parts. Some of the product is ejected during vomiting conveniently allowing for assembly of complex machines or electronics.</MutationVomitComponent.description>
+  <!-- EN: marble factory -->
+  <MutationVomitMarbleBricks.label>marble factory</MutationVomitMarbleBricks.label>
+  <!-- EN: Colonist's body part has mutated to produce marble bricks. Some of the product is ejected during vomiting. Marble is a soft, beautiful stone, known for being easy to sculpt. -->
+  <MutationVomitMarbleBricks.description>Colonist's body part has mutated to produce marble bricks. Some of the product is ejected during vomiting. Marble is a soft, beautiful stone, known for being easy to sculpt.</MutationVomitMarbleBricks.description>
+  <!-- EN: silver factory -->
+  <MutationVomitSilver.label>silver factory</MutationVomitSilver.label>
+  <!-- EN: Colonist's body part has mutated to produce silver pieces. Some of the product is ejected during vomiting. Silver is mostly used as a commodity currency. -->
+  <MutationVomitSilver.description>Colonist's body part has mutated to produce silver pieces. Some of the product is ejected during vomiting. Silver is mostly used as a commodity currency.</MutationVomitSilver.description>
+  <!-- EN: steel factory -->
+  <MutationVomitSteel.label>steel factory</MutationVomitSteel.label>
+  <!-- EN: Colonist's body part has mutated to produce chunks of steel. Some of the product is ejected during vomiting. Steel is an iron-carbon metal alloy. -->
+  <MutationVomitSteel.description>Colonist's body part has mutated to produce chunks of steel. Some of the product is ejected during vomiting. Steel is an iron-carbon metal alloy.</MutationVomitSteel.description>
+</LanguageData>

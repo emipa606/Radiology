@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Crippled Leg -->
+  <MutationCrippledLeg.label>Crippled Leg</MutationCrippledLeg.label>
+  <!-- EN: This colonists leg has grown but in a deformed way, crooked and weak, this colonist has difficulty moving. -->
+  <MutationCrippledLeg.description>This colonists leg has grown but in a deformed way, crooked and weak, this colonist has difficulty moving.</MutationCrippledLeg.description>
+  <!-- EN: Super Speed -->
+  <MutationSuperSpeed.label>Super Speed</MutationSuperSpeed.label>
+  <!-- EN: The muscles and tendons in the colonist's legs have grown and strengthened giving this colonist insane speed and agility. -->
+  <MutationSuperSpeed.description>The muscles and tendons in the colonist's legs have grown and strengthened giving this colonist insane speed and agility.</MutationSuperSpeed.description>
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: blood blade -->
+  <MutationBloodBlade.label>blood blade</MutationBloodBlade.label>
+  <!-- EN: Colonist's hand has transformed into a long fleshy blade, which seems to live a life of its own. Upon being fed living matter in combat environment, this blade is able to produce very strong restoraive effect, capable of regenerating even permanent injuries. -->
+  <MutationBloodBlade.description>Colonist's hand has transformed into a long fleshy blade, which seems to live a life of its own. Upon being fed living matter in combat environment, this blade is able to produce very strong restoraive effect, capable of regenerating even permanent injuries.</MutationBloodBlade.description>
+  <!-- EN: blade -->
+  <MutationBloodBlade.comps.HediffComp_VerbGiver.tools.blade.label>blade</MutationBloodBlade.comps.HediffComp_VerbGiver.tools.blade.label>
+  <!-- EN: enhanced dexterity -->
+  <MutationEnhancedDex.label>enhanced dexterity</MutationEnhancedDex.label>
+  <!-- EN: The radiation has strengthened the tendons and muscles in colonist's hand, making him more dexterous. -->
+  <MutationEnhancedDex.description>The radiation has strengthened the tendons and muscles in colonist's hand, making him more dexterous.</MutationEnhancedDex.description>
+  <!-- EN: green thumb -->
+  <MutationGreenThumb.label>green thumb</MutationGreenThumb.label>
+  <!-- EN: Green growth on the surface of colonist's hand seems to invigorate any plants he puts into ground. -->
+  <MutationGreenThumb.description>Green growth on the surface of colonist's hand seems to invigorate any plants he puts into ground.</MutationGreenThumb.description>
+  <!-- EN: hand blade -->
+  <MutationHandBlade.label>hand blade</MutationHandBlade.label>
+  <!-- EN: Colonist's hand has transformed into a long blade, making it very different to do any manipulation-related tasks, but it works very well as a melee weapon. -->
+  <MutationHandBlade.description>Colonist's hand has transformed into a long blade, making it very different to do any manipulation-related tasks, but it works very well as a melee weapon.</MutationHandBlade.description>
+  <!-- EN: blade -->
+  <MutationHandBlade.comps.HediffComp_VerbGiver.tools.blade.label>blade</MutationHandBlade.comps.HediffComp_VerbGiver.tools.blade.label>
+  <!-- EN: ripped shoulders -->
+  <MutationRippedShoulders.label>ripped shoulders</MutationRippedShoulders.label>
+  <!-- EN: Colonist's shoulders have gained a large amount of extra muscle mass, giving him extra proficiency for melee combat, as well as generally improving his looks. -->
+  <MutationRippedShoulders.description>Colonist's shoulders have gained a large amount of extra muscle mass, giving him extra proficiency for melee combat, as well as generally improving his looks.</MutationRippedShoulders.description>
+  <!-- EN: rotten hand -->
+  <MutationRottenHand.label>rotten hand</MutationRottenHand.label>
+  <!-- EN: Colonist's hand is near, but not exactly at a stage where it rots and falls off. Sometimes miniature life forms can be observed traversing the skin. -->
+  <MutationRottenHand.description>Colonist's hand is near, but not exactly at a stage where it rots and falls off. Sometimes miniature life forms can be observed traversing the skin.</MutationRottenHand.description>
+  <!-- EN: steady hand -->
+  <MutationShootingBoost.label>steady hand</MutationShootingBoost.label>
+  <!-- EN: A specific mutation to colonist's hand enables a much greater shooting proficiency, at cost of weakening melee attacks. -->
+  <MutationShootingBoost.description>A specific mutation to colonist's hand enables a much greater shooting proficiency, at cost of weakening melee attacks.</MutationShootingBoost.description>
+  <!-- EN: strengthened arm -->
+  <MutationStrengthenedArm.label>strengthened arm</MutationStrengthenedArm.label>
+  <!-- EN: The muscle tissue in the arm has mutated and grown unnaturally, causing colonist to have increased strength and control. -->
+  <MutationStrengthenedArm.description>The muscle tissue in the arm has mutated and grown unnaturally, causing colonist to have increased strength and control.</MutationStrengthenedArm.description>
+  <!-- EN: Tumorous Fingers -->
+  <MutationTumorousHand.label>Tumorous Fingers</MutationTumorousHand.label>
+  <!-- EN: The radiation has caused benign tumours to grow on colonist's hand, destroying nerves and muscle tissue causing the hand to become crippled. -->
+  <MutationTumorousHand.description>The radiation has caused benign tumours to grow on colonist's hand, destroying nerves and muscle tissue causing the hand to become crippled.</MutationTumorousHand.description>
+  <!-- EN: Weakened Arms -->
+  <MutationWeakenedArm.label>Weakened Arms</MutationWeakenedArm.label>
+  <!-- EN: The radiation has caused the muscle tissue in colonist's arm to deteriorate, weakening his strength and control. -->
+  <MutationWeakenedArm.description>The radiation has caused the muscle tissue in colonist's arm to deteriorate, weakening his strength and control.</MutationWeakenedArm.description>
+</LanguageData>

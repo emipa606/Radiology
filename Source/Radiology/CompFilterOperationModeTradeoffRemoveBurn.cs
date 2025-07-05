@@ -1,12 +1,14 @@
-﻿namespace Radiology;
+﻿using Verse;
+
+namespace Radiology;
 
 public class CompFilterOperationModeTradeoffRemoveBurn : CompFilterOperationMode
 {
-    public readonly float multiplier = 5f;
+    private readonly float multiplier = 5f;
 
     public CompFilterOperationModeTradeoffRemoveBurn()
     {
-        Label = "use rare radiation to filter out 5x burn radiation";
+        Label = "RadiologyFilter5TimesBurn".Translate();
         Prerequisite = ResearchDefOf.RadiologyFilteringTradeoff;
     }
 

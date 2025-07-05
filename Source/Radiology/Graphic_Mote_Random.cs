@@ -6,16 +6,16 @@ namespace Radiology;
 [StaticConstructorOnStartup]
 public class Graphic_Mote_Random : Graphic_Random
 {
-    protected static readonly MaterialPropertyBlock propertyBlock = new MaterialPropertyBlock();
+    private static readonly MaterialPropertyBlock propertyBlock = new();
 
     protected virtual bool ForcePropertyBlock => false;
 
     public override void DrawWorker(Vector3 loc, Rot4 rot, ThingDef thingDef, Thing thing, float extraRotation)
     {
-        DrawMoteInternal(loc, rot, thingDef, thing, 0);
+        DrawMoteInternal(thing, 0);
     }
 
-    public void DrawMoteInternal(Vector3 loc, Rot4 rot, ThingDef thingDef, Thing thing, int layer)
+    private void DrawMoteInternal(Thing thing, int layer)
     {
         var mote = (Mote)thing;
         var alpha = mote.Alpha;
@@ -45,7 +45,7 @@ public class Graphic_Mote_Random : Graphic_Random
         }
     }
 
-    public Material MaterialFor(Thing thing)
+    private Material MaterialFor(Thing thing)
     {
         if (thing == null)
         {
@@ -59,14 +59,6 @@ public class Graphic_Mote_Random : Graphic_Random
 
     public override string ToString()
     {
-        return string.Concat([
-            "Mote(path=",
-            path,
-            ", shader=",
-            Shader,
-            ", color=",
-            color,
-            ", colorTwo=unsupported)"
-        ]);
+        return string.Concat("Mote(path=", path, ", shader=", Shader, ", color=", color, ", colorTwo=unsupported)");
     }
 }

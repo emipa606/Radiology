@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Redo cancer diagnosis -->
+  <RadiologyRedoCancerDiagnosis.label>Redo cancer diagnosis</RadiologyRedoCancerDiagnosis.label>
+  <!-- EN: Redo previous diagnosis. -->
+  <RadiologyRedoCancerDiagnosis.description>Redo previous diagnosis.</RadiologyRedoCancerDiagnosis.description>
+  <!-- EN: Redoing cancer diagnosis. -->
+  <RadiologyRedoCancerDiagnosis.jobString>Redoing cancer diagnosis.</RadiologyRedoCancerDiagnosis.jobString>
+</LanguageData>

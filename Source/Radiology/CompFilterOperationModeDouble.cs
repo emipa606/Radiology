@@ -1,10 +1,12 @@
-﻿namespace Radiology;
+﻿using Verse;
+
+namespace Radiology;
 
 public class CompFilterOperationModeDouble : CompFilterOperationMode
 {
     public CompFilterOperationModeDouble()
     {
-        Label = "double all radiation";
+        Label = "RadiologyFilterDouble".Translate();
         Prerequisite = ResearchDefOf.RadiologyFilteringAdvanced;
     }
 

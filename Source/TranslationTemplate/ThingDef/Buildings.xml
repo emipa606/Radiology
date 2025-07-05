@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: radiation blocker -->
+  <RadiologyBlocker.label>radiation blocker</RadiologyBlocker.label>
+  <!-- EN: Lets you set up a filter that will block a large amount of radiation directed at certain body parts. This blocker has 40% chance to deflect radiation and lets you select up to two body parts. -->
+  <RadiologyBlocker.description>Lets you set up a filter that will block a large amount of radiation directed at certain body parts. This blocker has 40% chance to deflect radiation and lets you select up to two body parts.</RadiologyBlocker.description>
+  <!-- EN: advanced radiation blocker -->
+  <RadiologyBlockerAdvanced.label>advanced radiation blocker</RadiologyBlockerAdvanced.label>
+  <!-- EN: Lets you set up a filter that will block a large amount of radiation directed at certain body parts. This blocker has 80% chance to deflect radiation and lets you select up to four body parts. -->
+  <RadiologyBlockerAdvanced.description>Lets you set up a filter that will block a large amount of radiation directed at certain body parts. This blocker has 80% chance to deflect radiation and lets you select up to four body parts.</RadiologyBlockerAdvanced.description>
+  <!-- EN: intermediate radiation blocker -->
+  <RadiologyBlockerIntermediate.label>intermediate radiation blocker</RadiologyBlockerIntermediate.label>
+  <!-- EN: Lets you set up a filter that will block a large amount of radiation directed at certain body parts. This blocker has 60% chance to deflect radiation and lets you select up to three body parts. -->
+  <RadiologyBlockerIntermediate.description>Lets you set up a filter that will block a large amount of radiation directed at certain body parts. This blocker has 60% chance to deflect radiation and lets you select up to three body parts.</RadiologyBlockerIntermediate.description>
+  <!-- EN: radiation extender -->
+  <RadiologyExtender.label>radiation extender</RadiologyExtender.label>
+  <!-- EN: A device that collects incoming radiation from all directions and redirects it forward with minimal dissipation, allowing you to place irradiators at a larger distance away from the target. -->
+  <RadiologyExtender.description>A device that collects incoming radiation from all directions and redirects it forward with minimal dissipation, allowing you to place irradiators at a larger distance away from the target.</RadiologyExtender.description>
+  <!-- EN: radiation filter -->
+  <RadiologyFilter.label>radiation filter</RadiologyFilter.label>
+  <!-- EN: Lets you set up a filter that will alter the radiation going through it. -->
+  <RadiologyFilter.description>Lets you set up a filter that will alter the radiation going through it.</RadiologyFilter.description>
+  <!-- EN: irradiator -->
+  <RadiologyIrradiator.label>irradiator</RadiologyIrradiator.label>
+  <!-- EN: Bombard your colonists with harmful radiation. -->
+  <RadiologyIrradiator.description>Bombard your colonists with harmful radiation.</RadiologyIrradiator.description>
+  <!-- EN: intermediate irradiator -->
+  <RadiologyIrradiatorIntermediate.label>intermediate irradiator</RadiologyIrradiatorIntermediate.label>
+  <!-- EN: Bombard your colonists with less harmful radiation. -->
+  <RadiologyIrradiatorIntermediate.description>Bombard your colonists with less harmful radiation.</RadiologyIrradiatorIntermediate.description>
+  <!-- EN: radiation monitor -->
+  <RadiologyMonitor.label>radiation monitor</RadiologyMonitor.label>
+  <!-- EN: Displays the amount of radiation dispensed at radiation chamber. -->
+  <RadiologyMonitor.description>Displays the amount of radiation dispensed at radiation chamber.</RadiologyMonitor.description>
+  <!-- EN: mutation monitor -->
+  <RadiologyMonitorMutation.label>mutation monitor</RadiologyMonitorMutation.label>
+  <!-- EN: Displays the last mutation created at a chamber. -->
+  <RadiologyMonitorMutation.description>Displays the last mutation created at a chamber.</RadiologyMonitorMutation.description>
+  <!-- EN: irradiation chamber -->
+  <RadiologyRadiationChamber.label>irradiation chamber</RadiologyRadiationChamber.label>
+  <!-- EN: A place to stand on for a prescripted dose of radiation. -->
+  <RadiologyRadiationChamber.description>A place to stand on for a prescripted dose of radiation.</RadiologyRadiationChamber.description>
+</LanguageData>

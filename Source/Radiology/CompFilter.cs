@@ -8,7 +8,7 @@ namespace Radiology;
 
 internal class CompFilter : ThingComp, IRadiationModifier, ISelectMultiple<CompFilterOperationMode>
 {
-    public static readonly CompFilterOperationMode[] operationModes =
+    private static readonly CompFilterOperationMode[] operationModes =
     [
         new CompFilterOperationModeBasic(),
         new CompFilterOperationModeIntermediate(),

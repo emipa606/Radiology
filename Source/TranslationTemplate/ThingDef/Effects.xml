@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Mote -->
+  <RadiologyMoteAirPuff.label>Mote</RadiologyMoteAirPuff.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteBlink.label>Mote</RadiologyMoteBlink.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteBlinkIn.label>Mote</RadiologyMoteBlinkIn.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteBlinkLong.label>Mote</RadiologyMoteBlinkLong.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteBurn.label>Mote</RadiologyMoteBurn.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteCancer.label>Mote</RadiologyMoteCancer.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteMutate.label>Mote</RadiologyMoteMutate.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteMutationCloud.label>Mote</RadiologyMoteMutationCloud.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteRadiation.label>Mote</RadiologyMoteRadiation.label>
+  <!-- EN: Mote -->
+  <RadiologyMoteRadiationDirected.label>Mote</RadiologyMoteRadiationDirected.label>
+</LanguageData>

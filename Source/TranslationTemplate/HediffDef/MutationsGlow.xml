@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: glow -->
+  <MutationGlow.label>glow</MutationGlow.label>
+  <!-- EN: Colonist's head is glowing. -->
+  <MutationGlow.description>Colonist's head is glowing.</MutationGlow.description>
+  <!-- EN: glow blue -->
+  <MutationGlowBlue.label>glow blue</MutationGlowBlue.label>
+  <!-- EN: Colonist's head is glowing with blue color. -->
+  <MutationGlowBlue.description>Colonist's head is glowing with blue color.</MutationGlowBlue.description>
+  <!-- EN: glow green -->
+  <MutationGlowGreen.label>glow green</MutationGlowGreen.label>
+  <!-- EN: Colonist's head is glowing with green color. -->
+  <MutationGlowGreen.description>Colonist's head is glowing with green color.</MutationGlowGreen.description>
+  <!-- EN: glow red -->
+  <MutationGlowRed.label>glow red</MutationGlowRed.label>
+  <!-- EN: Colonist's head is glowing with red color. -->
+  <MutationGlowRed.description>Colonist's head is glowing with red color.</MutationGlowRed.description>
+</LanguageData>

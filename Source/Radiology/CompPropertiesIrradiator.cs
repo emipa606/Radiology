@@ -23,14 +23,8 @@ public class CompPropertiesIrradiator : CompProperties
     {
         base.ResolveReferences(parentDef);
 
-        if (burn == null)
-        {
-            burn = new RadiationInflurence();
-        }
+        burn ??= new RadiationInflurence();
 
-        if (mutate == null)
-        {
-            mutate = new RadiationInflurence();
-        }
+        mutate ??= new RadiationInflurence();
     }
 }

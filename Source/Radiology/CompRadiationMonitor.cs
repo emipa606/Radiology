@@ -6,10 +6,10 @@ namespace Radiology;
 [StaticConstructorOnStartup]
 internal class CompRadiationMonitor : ThingComp
 {
-    private static readonly Vector2 barSize = new Vector2(30f / 64, 12f / 64);
+    private static readonly Vector2 barSize = new(30f / 64, 12f / 64);
 
-    public static Material unfilledMat;
-    public static Material[] filledMat;
+    private static Material unfilledMat;
+    private static Material[] filledMat;
 
     private readonly float[] values = [0, 0, 0];
 

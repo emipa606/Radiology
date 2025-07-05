@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: adrenal gland -->
+  <MutationBerserkerMinor.label>adrenal gland</MutationBerserkerMinor.label>
+  <!-- EN: An extra adrenal gland has been formed partly inside colonist's body part, providing a huge boost to its capacity when the organism is injured. -->
+  <MutationBerserkerMinor.description>An extra adrenal gland has been formed partly inside colonist's body part, providing a huge boost to its capacity when the organism is injured.</MutationBerserkerMinor.description>
+  <!-- EN: bloodlust -->
+  <MutationBloodlust.label>bloodlust</MutationBloodlust.label>
+  <!-- EN: Colonist's body part has developed a way to perceive the smell of blood outside of the colonist's body, as well as an unusual thirst for it. Nearby pools of blood will raise capacity for blood pumping as well as movement speed. -->
+  <MutationBloodlust.description>Colonist's body part has developed a way to perceive the smell of blood outside of the colonist's body, as well as an unusual thirst for it. Nearby pools of blood will raise capacity for blood pumping as well as movement speed.</MutationBloodlust.description>
+</LanguageData>

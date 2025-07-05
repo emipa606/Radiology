@@ -114,10 +114,7 @@ public class Mutation : HediffWithComps
             {
                 foreach (var tool in comp.tools)
                 {
-                    if (apparelDef.tools == null)
-                    {
-                        apparelDef.tools = [];
-                    }
+                    apparelDef.tools ??= [];
 
                     if (!apparelDef.tools.Contains(tool))
                     {

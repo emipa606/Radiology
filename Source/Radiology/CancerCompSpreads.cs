@@ -25,7 +25,7 @@ public class CancerCompSpreads : CancerComp<CancerCompSpreadsDef>
         return growUpwards || growDownwards;
     }
 
-    public IEnumerable<BodyPartRecord> PotentialTargetParts()
+    private IEnumerable<BodyPartRecord> potentialTargetParts()
     {
         if (cancer.Part.parent != null && def.growUpwards)
         {
@@ -39,9 +39,9 @@ public class CancerCompSpreads : CancerComp<CancerCompSpreadsDef>
     }
 
 
-    public IEnumerable<BodyPartRecord> TargetParts()
+    private IEnumerable<BodyPartRecord> targetParts()
     {
-        foreach (var part in PotentialTargetParts())
+        foreach (var part in potentialTargetParts())
         {
             if (part == null)
             {
@@ -63,7 +63,7 @@ public class CancerCompSpreads : CancerComp<CancerCompSpreadsDef>
             return;
         }
 
-        var part = TargetParts().RandomElementWithFallback();
+        var part = targetParts().RandomElementWithFallback();
         if (part == null)
         {
             return;

@@ -8,11 +8,11 @@ namespace Radiology;
 
 public class Cancer : Mutation
 {
-    internal readonly HediffStage stage = new HediffStage();
-    public List<CancerComp> actualComps = [];
+    internal readonly HediffStage stage = new();
+    private List<CancerComp> actualComps = [];
 
-    public List<CancerComp> apparentComps = [];
-    public bool apparentGrowth;
+    private List<CancerComp> apparentComps = [];
+    private bool apparentGrowth;
     public bool diagnosed;
 
     private int lastUpdateTick = -1;
@@ -25,7 +25,7 @@ public class Cancer : Mutation
     {
         get
         {
-            UpdateStage();
+            updateStage();
 
             return stage;
         }
@@ -136,7 +136,7 @@ public class Cancer : Mutation
             InitializeComps(actualComps);
         }
 
-        UpdateStage();
+        updateStage();
     }
 
     public void BecomeCopyOf(Cancer other)
@@ -155,7 +155,7 @@ public class Cancer : Mutation
             actualComps.Add(comp.CreateCopy());
         }
 
-        UpdateStage();
+        updateStage();
     }
 
     private void InitializeComps(List<CancerComp> list)
@@ -166,7 +166,7 @@ public class Cancer : Mutation
         }
     }
 
-    public CancerComp CreateComp(CancerCompDef def)
+    private CancerComp CreateComp(CancerCompDef def)
     {
         if (Activator.CreateInstance(def.compClass) is not CancerComp comp)
         {
@@ -179,7 +179,7 @@ public class Cancer : Mutation
         return comp;
     }
 
-    public void CreateComps()
+    private void CreateComps()
     {
         apparentGrowth = false;
         diagnosed = false;
@@ -227,7 +227,7 @@ public class Cancer : Mutation
         Severity = def.initialSeverityRange.RandomInRange;
     }
 
-    private void UpdateStage()
+    private void updateStage()
     {
         var tick = Find.TickManager.TicksGame;
         if (tick < nextUpdateTick)

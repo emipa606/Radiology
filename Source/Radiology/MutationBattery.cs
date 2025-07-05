@@ -9,7 +9,7 @@ public class MutationBattery : MutationCapacityModifier<MutationBatteryDef>
 {
     private float charge;
 
-    private Vector3 halfNeg = new Vector3(-0.5f, 0f, -0.5f);
+    private Vector3 halfNeg = new(-0.5f, 0f, -0.5f);
     private Building previousBuilding;
 
     public override void ExposeData()
@@ -34,7 +34,7 @@ public class MutationBattery : MutationCapacityModifier<MutationBatteryDef>
         return res;
     }
 
-    public void Drain()
+    private void Drain()
     {
         Building building = null;
         if (previousBuilding != null && previousBuilding.Position.DistanceTo(pawn.Position) < def.range)
@@ -42,11 +42,8 @@ public class MutationBattery : MutationCapacityModifier<MutationBatteryDef>
             building = previousBuilding;
         }
 
-        if (building == null)
-        {
-            building = pawn.Map.listerBuildings.allBuildingsColonistElecFire.FirstOrDefault(x =>
-                x.Position.DistanceTo(pawn.Position) < def.range);
-        }
+        building ??= pawn.Map.listerBuildings.allBuildingsColonistElecFire.FirstOrDefault(x =>
+            x.Position.DistanceTo(pawn.Position) < def.range);
 
         previousBuilding = building;
 

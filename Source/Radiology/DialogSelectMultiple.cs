@@ -27,7 +27,7 @@ internal class DialogSelectMultiple<T> : Window
     public string LabelNotSelected { get; set; }
     public int SelectedLimit { get; set; } = -1;
 
-    public override Vector2 InitialSize => new Vector2(620f, 500f);
+    public override Vector2 InitialSize => new(620f, 500f);
 
     public override void DoWindowContents(Rect inRect)
     {

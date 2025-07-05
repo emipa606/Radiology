@@ -10,21 +10,21 @@ namespace Radiology;
 
 public class CompIrradiator : ThingComp
 {
-    public readonly List<float> motesReflectAt = [];
+    private readonly List<float> motesReflectAt = [];
     private Building linked;
 
     private CompPowerTrader powerComp;
 
     private Sustainer soundSustainer;
 
-    public int ticksCooldown;
-    public new CompPropertiesIrradiator props => base.props as CompPropertiesIrradiator;
+    private int ticksCooldown;
+    private new CompPropertiesIrradiator props => base.props as CompPropertiesIrradiator;
 
     public virtual CompPropertiesIrradiator MoteProps => props;
 
-    private IEnumerable<ThingWithComps> GetFacilitiesBetweenThisAndTarget(Building target)
+    private IEnumerable<ThingWithComps> getFacilitiesBetweenThisAndTarget(Building target)
     {
-        var rot = Rotation();
+        var rot = rotation();
 
         IEnumerable<Thing> list =
             parent.GetComp<CompAffectedByFacilities>().LinkedFacilitiesListForReading
@@ -56,13 +56,13 @@ public class CompIrradiator : ThingComp
         }
     }
 
-    private IEnumerable<T> GetModifiers<T, X>(Building target) where X : class where T : ThingComp
+    private IEnumerable<T> getModifiers<T, TX>(Building target) where TX : class where T : ThingComp
     {
-        foreach (var thing in GetFacilitiesBetweenThisAndTarget(target))
+        foreach (var thing in getFacilitiesBetweenThisAndTarget(target))
         {
             foreach (var comp in thing.GetComps<T>())
             {
-                if (comp is X)
+                if (comp is TX)
                 {
                     yield return comp;
                 }
@@ -70,7 +70,7 @@ public class CompIrradiator : ThingComp
         }
     }
 
-    private Rot4 Rotation()
+    private Rot4 rotation()
     {
         if (linked == null)
         {
@@ -124,11 +124,11 @@ public class CompIrradiator : ThingComp
             : null;
 
         motesReflectAt.Clear();
-        foreach (var comp in GetModifiers<ThingComp, IRadiationModifier>(linked))
+        foreach (var comp in getModifiers<ThingComp, IRadiationModifier>(linked))
         {
             if (comp is CompBlocker)
             {
-                motesReflectAt.Add((Rotation().IsHorizontal ? comp.parent.Position.x : comp.parent.Position.z) + 0.5f);
+                motesReflectAt.Add((rotation().IsHorizontal ? comp.parent.Position.x : comp.parent.Position.z) + 0.5f);
             }
 
             if (info.secondHand)
@@ -151,7 +151,7 @@ public class CompIrradiator : ThingComp
         powerComp = parent.TryGetComp<CompPowerTrader>();
     }
 
-    public void SpawnRadiationMote()
+    private void spawnRadiationMote()
     {
         if (linked == null)
         {
@@ -205,7 +205,7 @@ public class CompIrradiator : ThingComp
         moteThrown.reflectAt = motesReflectAt;
         moteThrown.reflectChance = def.reflectChance;
 
-        var rot = Rotation();
+        var rot = rotation();
         if (rot.IsHorizontal)
         {
             moteThrown.deathLocation = linked.ExactPosition().x;
@@ -229,7 +229,7 @@ public class CompIrradiator : ThingComp
 
     public override void CompTick()
     {
-        ConsumePower();
+        consumePower();
 
         if (ticksCooldown <= 0)
         {
@@ -238,12 +238,12 @@ public class CompIrradiator : ThingComp
 
         soundSustainer?.Maintain();
 
-        SpawnRadiationMote();
+        spawnRadiationMote();
 
         ticksCooldown--;
     }
 
-    public void ConsumePower()
+    private void consumePower()
     {
         if (powerComp == null)
         {

@@ -12,7 +12,7 @@ public class ChamberDef : ThingDef
     private Dictionary<BodyPartDef, float> cachedPartsMap;
     public FloatRange mutateThreshold;
 
-    public Dictionary<BodyPartDef, float> PartsMap
+    private Dictionary<BodyPartDef, float> PartsMap
     {
         get
         {

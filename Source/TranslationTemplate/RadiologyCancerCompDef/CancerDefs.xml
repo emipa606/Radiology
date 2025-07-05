@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: makes aggressive -->
+  <CancerCompAggressiveness.description>makes aggressive</CancerCompAggressiveness.description>
+  <!-- EN: reduces {0} by {1}% -->
+  <CancerCompCapacityOffset.description>reduces {0} by {1}%</CancerCompCapacityOffset.description>
+  <!-- EN: causes death when fully grown -->
+  <CancerCompDeathAt100.description>causes death when fully grown</CancerCompDeathAt100.description>
+  <!-- EN: causes death when grown to 50% -->
+  <CancerCompDeathAt50.description>causes death when grown to 50%</CancerCompDeathAt50.description>
+  <!-- EN: causes death when grown to 75% -->
+  <CancerCompDeathAt75.description>causes death when grown to 75%</CancerCompDeathAt75.description>
+  <!-- EN: destroys {0} at {1}% growth -->
+  <CancerCompDestroyBodyPartAt100.description>destroys {0} at {1}% growth</CancerCompDestroyBodyPartAt100.description>
+  <!-- EN: destroys {0} at {1}% growth -->
+  <CancerCompDestroyBodyPartAt75.description>destroys {0} at {1}% growth</CancerCompDestroyBodyPartAt75.description>
+  <!-- EN: grows -->
+  <CancerCompGrowing.description>grows</CancerCompGrowing.description>
+  <!-- EN: grows fast -->
+  <CancerCompGrowingFast.description>grows fast</CancerCompGrowingFast.description>
+  <!-- EN: increases hunger by {0}% -->
+  <CancerCompHunger.description>increases hunger by {0}%</CancerCompHunger.description>
+  <!-- EN: causes a mental break about once per day -->
+  <CancerCompMentalBreakDaily.description>causes a mental break about once per day</CancerCompMentalBreakDaily.description>
+  <!-- EN: causes a mental break about once per three days -->
+  <CancerCompMentalBreakThreeDays.description>causes a mental break about once per three days</CancerCompMentalBreakThreeDays.description>
+  <!-- EN: causes a mental break about three times a day -->
+  <CancerCompMentalBreakThriceADay.description>causes a mental break about three times a day</CancerCompMentalBreakThriceADay.description>
+  <!-- EN: causes a mental break about twice a day -->
+  <CancerCompMentalBreakTwiceADay.description>causes a mental break about twice a day</CancerCompMentalBreakTwiceADay.description>
+  <!-- EN: causes a mental break about once per two days -->
+  <CancerCompMentalBreakTwoDays.description>causes a mental break about once per two days</CancerCompMentalBreakTwoDays.description>
+  <!-- EN: spreads and mutates -->
+  <CancerCompMutatesSpreads.description>spreads and mutates</CancerCompMutatesSpreads.description>
+  <!-- EN: causes pain (extreme) -->
+  <CancerCompPainExtreme.description>causes pain (extreme)</CancerCompPainExtreme.description>
+  <!-- EN: causes pain (a lot) -->
+  <CancerCompPainHigh.description>causes pain (a lot)</CancerCompPainHigh.description>
+  <!-- EN: causes pain (minimal) -->
+  <CancerCompPainLow.description>causes pain (minimal)</CancerCompPainLow.description>
+  <!-- EN: causes pain -->
+  <CancerCompPainMedium.description>causes pain</CancerCompPainMedium.description>
+  <!-- EN: reduces body part efficiency by {0}% -->
+  <CancerCompPartEfficiency.description>reduces body part efficiency by {0}%</CancerCompPartEfficiency.description>
+  <!-- EN: shrinks -->
+  <CancerCompShrinking.description>shrinks</CancerCompShrinking.description>
+  <!-- EN: spreads -->
+  <CancerCompSpreads.description>spreads</CancerCompSpreads.description>
+  <!-- EN: spreads downwards -->
+  <CancerCompSpreadsDownwards.description>spreads downwards</CancerCompSpreadsDownwards.description>
+  <!-- EN: spreads downwards and mutates -->
+  <CancerCompSpreadsMutatesDownwards.description>spreads downwards and mutates</CancerCompSpreadsMutatesDownwards.description>
+  <!-- EN: spreads upwards and mutates -->
+  <CancerCompSpreadsMutatesUpwards.description>spreads upwards and mutates</CancerCompSpreadsMutatesUpwards.description>
+  <!-- EN: spreads upwards -->
+  <CancerCompSpreadsUpwards.description>spreads upwards</CancerCompSpreadsUpwards.description>
+  <!-- EN: makes vomit daily -->
+  <CancerCompVomitingDaily.description>makes vomit daily</CancerCompVomitingDaily.description>
+  <!-- EN: makes vomit a lot -->
+  <CancerCompVomitingOften.description>makes vomit a lot</CancerCompVomitingOften.description>
+  <!-- EN: makes vomit twice a day -->
+  <CancerCompVomitingSometimes.description>makes vomit twice a day</CancerCompVomitingSometimes.description>
+</LanguageData>

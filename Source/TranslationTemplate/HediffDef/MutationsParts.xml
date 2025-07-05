@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: horns -->
+  <MutationHorns.label>horns</MutationHorns.label>
+  <!-- EN: Horns have popped out of colonist's head, making it impossible for him to wear and headgear. At least horns can be used as a melee weapon. -->
+  <MutationHorns.description>Horns have popped out of colonist's head, making it impossible for him to wear and headgear. At least horns can be used as a melee weapon.</MutationHorns.description>
+  <!-- EN: tip -->
+  <MutationHorns.comps.HediffComp_VerbGiver.tools.tip.label>tip</MutationHorns.comps.HediffComp_VerbGiver.tools.tip.label>
+</LanguageData>

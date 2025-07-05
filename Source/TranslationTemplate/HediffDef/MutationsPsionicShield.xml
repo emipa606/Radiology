@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fire shield -->
+  <MutationFireShield.label>fire shield</MutationFireShield.label>
+  <!-- EN: Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage. -->
+  <MutationFireShield.description>Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage.</MutationFireShield.description>
+  <!-- EN: psionic shield -->
+  <MutationPsionicShield.label>psionic shield</MutationPsionicShield.label>
+  <!-- EN: Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage. -->
+  <MutationPsionicShield.description>Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage.</MutationPsionicShield.description>
+  <!-- EN: huge psionic shield -->
+  <MutationPsionicShieldHuge.label>huge psionic shield</MutationPsionicShieldHuge.label>
+  <!-- EN: Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage. -->
+  <MutationPsionicShieldHuge.description>Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage.</MutationPsionicShieldHuge.description>
+  <!-- EN: large psionic shield -->
+  <MutationPsionicShieldLarge.label>large psionic shield</MutationPsionicShieldLarge.label>
+  <!-- EN: Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage. -->
+  <MutationPsionicShieldLarge.description>Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage.</MutationPsionicShieldLarge.description>
+  <!-- EN: small psionic shield -->
+  <MutationPsionicShieldSmall.label>small psionic shield</MutationPsionicShieldSmall.label>
+  <!-- EN: Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage. -->
+  <MutationPsionicShieldSmall.description>Colonist has formed a psionic shield around self, allowing for protection from both ranged and melee damage.</MutationPsionicShieldSmall.description>
+</LanguageData>

@@ -8,15 +8,15 @@ namespace Radiology;
 
 internal class CompBlocker : ThingComp, ISelectMultiple<BodyPartRecord>, IRadiationModifier
 {
-    public readonly HashSet<BodyPartRecord> allParts = [];
+    private readonly HashSet<BodyPartRecord> allParts = [];
     private readonly BodyDef bodyDef = BodyDefOf.Human;
 
-    public HashSet<BodyPartRecord> enabledParts = [];
+    private HashSet<BodyPartRecord> enabledParts = [];
 
     private CompFacility facility;
     private CompPowerTrader powerComp;
 
-    public new CompPropertiesBlocker props => base.props as CompPropertiesBlocker;
+    private new CompPropertiesBlocker props => base.props as CompPropertiesBlocker;
 
     public void Modify(ref RadiationInfo info)
     {
