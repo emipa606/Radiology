@@ -51,4 +51,16 @@
   <RadiologyTooltipHis>seine</RadiologyTooltipHis>
   <RadiologyTooltipSkillDisabled>deaktiviert</RadiologyTooltipSkillDisabled>
   <RadiologyLastMutation>Letzte Mutation: {0}, {1} vor</RadiologyLastMutation>
+  <!-- reverse of him -->
+  <!-- reverse of his -->
+  <RadiologyFilter20Percent>20% der normalen Strahlung herausfiltern</RadiologyFilter20Percent>
+  <RadiologyFilter30Percent>30% der normalen Strahlung herausfiltern</RadiologyFilter30Percent>
+  <RadiologyFilter5Times>seltene Strahlung verwenden, um 5x normale Strahlung herauszufiltern</RadiologyFilter5Times>
+  <RadiologyFilter5TimesBurn>seltene Strahlung verwenden, um 5x Verbrennungsstrahlung herauszufiltern</RadiologyFilter5TimesBurn>
+  <RadiologyFilter40Percent>40% der normalen Strahlung herausfiltern</RadiologyFilter40Percent>
+  <RadiologyFilter40PlusPercent>40% der Verbrennungsstrahlung und 20% der anderen herausfiltern</RadiologyFilter40PlusPercent>
+  <RadiologyFilter20PlusPercent>20% der Verbrennungsstrahlung und 10% der anderen herausfiltern</RadiologyFilter20PlusPercent>
+  <RadiologyFilter30PlusPercent>30% der Verbrennungsstrahlung und 15% der anderen herausfiltern</RadiologyFilter30PlusPercent>
+  <RadiologyFilterDouble>alle Strahlung verdoppeln</RadiologyFilterDouble>
+  <RadiologyCarryingTo>Übertragung von {0} nach {1}</RadiologyCarryingTo>
 </LanguageData>

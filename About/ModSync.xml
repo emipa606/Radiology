@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>da9a5d1e-c5be-4df8-926f-5665d3148ce0</ID>
   <ModName>Radiology (Continued)</ModName>
-  <Version>1.6.0</Version>
+  <Version>1.6.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>

@@ -9,16 +9,27 @@ public static class PatchDefGeneratorGenerateImpliedDefs_PreResolve
 {
     private static readonly HashSet<string> ignoreParts = ["Brain", "Head"];
 
+    private static void Info(string text)
+    {
+        if (Prefs.DevMode)
+        {
+            Log.Message($"[Radiology][MutatedRecipeGen] {text}");
+        }
+    }
+
     public static void Postfix()
     {
         var installHeart = DefDatabase<RecipeDef>.GetNamed("InstallNaturalHeart");
+        var affectedParts = DefDatabase<MutationDef>.AllDefs.Where(x => x.affectedParts != null)
+            .SelectMany(x => x.affectedParts).Distinct().ToList();
 
-        foreach (var part in DefDatabase<MutationDef>.AllDefs.Where(x => x.affectedParts != null)
-                     .SelectMany(x => x.affectedParts).Distinct())
+        Info($"Generating implied mutated body part defs for {affectedParts.Count} body part defs.");
+
+        foreach (var part in affectedParts)
         {
             var def = new ThingDef
             {
-                isTechHediff = true,
+                //isTechHediff = true,
                 category = ThingCategory.Item,
                 thingClass = typeof(ThingWithComps),
                 thingCategories = [ThingCategoryDefOf.BodyParts],
@@ -68,21 +79,17 @@ public static class PatchDefGeneratorGenerateImpliedDefs_PreResolve
                 anesthetize = installHeart.anesthetize,
                 deathOnFailedSurgeryChance = installHeart.deathOnFailedSurgeryChance,
                 surgerySuccessChanceFactor = 1.2f,
-                modContentPack = Radiology.modContentPack
+                modContentPack = Radiology.modContentPack,
+                // Ingredient handling is done in Recipe_InstallMutatedBodyPart worker,
+                // because vanilla surgery ingredient matching does not reliably detect
+                // these implied defs in operations listing.
+                //var mutatedPart = new IngredientCount();
+                //mutatedPart.filter.SetAllow(def, true);
+                //recipe.ingredients.Add(mutatedPart);
+                recipeUsers = [..installHeart.recipeUsers],
+                appliedOnFixedBodyParts = [part],
+                skillRequirements = [new SkillRequirement { minLevel = 8, skill = SkillDefOf.Medicine }]
             };
-
-            var medicine = new IngredientCount();
-            medicine.SetBaseCount(2);
-            medicine.filter.SetAllow(RimWorld.ThingDefOf.MedicineIndustrial, true);
-            recipe.ingredients.Add(medicine);
-
-            var mutatedPart = new IngredientCount();
-            mutatedPart.filter.SetAllow(def, true);
-            recipe.ingredients.Add(mutatedPart);
-
-            recipe.recipeUsers = [..installHeart.recipeUsers];
-            recipe.appliedOnFixedBodyParts = [part];
-            recipe.skillRequirements = [new SkillRequirement { minLevel = 8, skill = SkillDefOf.Medicine }];
 
             def.descriptionHyperlinks = [recipe];
 

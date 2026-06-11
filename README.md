@@ -1,12 +1,12 @@
 # [Radiology (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3263857887)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of AUTOMATICs mod https://steamcommunity.com/sharedfiles/filedetails/?id=1617578581
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # ABOUT
 
@@ -52,13 +52,13 @@ jessefjxm - ChineseSimplified translation
 - fixed mutations that improve skills forcing those skills to be disabled after restart
 - fixed traders selling mutation body parts
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -66,4 +66,4 @@ jessefjxm - ChineseSimplified translation
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/Radiology?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3263857887) | tags:  body modifications
+[![Image](https://img.shields.io/github/v/release/emipa606/Radiology?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3263857887) | tags: body modifications

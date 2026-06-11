@@ -36,10 +36,13 @@ internal class JobDriverIrradiate : JobDriver, IPrisonerAllowedJob
 
         work.tickAction = delegate
         {
-            if (pawn.IsHashIntervalTick(60))
+            if (!pawn.IsHashIntervalTick(60))
             {
-                Chamber.Irradiate(work.actor, 60);
+                return;
             }
+
+            Chamber.Irradiate(work.actor, 60);
+            Chamber.Unselect(work.actor);
         };
         yield return work;
     }

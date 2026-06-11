@@ -8,4 +8,5 @@ public static class JobDefOf
 {
     public static JobDef RadiologyIrradiate;
     public static JobDef RadiologyIrradiatePrisoner;
+    public static JobDef RadiologyTakeToChamber;
 }

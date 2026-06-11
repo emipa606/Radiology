@@ -51,4 +51,16 @@
   <RadiologyTooltipHis>son</RadiologyTooltipHis>
   <RadiologyTooltipSkillDisabled>handicapé</RadiologyTooltipSkillDisabled>
   <RadiologyLastMutation>Dernière mutation : {0}, {1} il y a</RadiologyLastMutation>
+  <!-- reverse of him -->
+  <!-- reverse of his -->
+  <RadiologyFilter20Percent>filtrer 20 % du rayonnement normal</RadiologyFilter20Percent>
+  <RadiologyFilter30Percent>filtrer 30 % du rayonnement normal</RadiologyFilter30Percent>
+  <RadiologyFilter5Times>utiliser des radiations rares pour filtrer les radiations normales 5x</RadiologyFilter5Times>
+  <RadiologyFilter5TimesBurn>utiliser les radiations rares pour filtrer les radiations de brûlure 5x</RadiologyFilter5TimesBurn>
+  <RadiologyFilter40Percent>filtrer 40 % du rayonnement normal</RadiologyFilter40Percent>
+  <RadiologyFilter40PlusPercent>filtrer 40 % des radiations de brûlure et 20 % des autres radiations</RadiologyFilter40PlusPercent>
+  <RadiologyFilter20PlusPercent>filtrer 20 % des rayonnements de brûlure et 10 % des autres rayonnements</RadiologyFilter20PlusPercent>
+  <RadiologyFilter30PlusPercent>filtrer 30 % des rayonnements de brûlure et 15 % des autres rayonnements</RadiologyFilter30PlusPercent>
+  <RadiologyFilterDouble>doubler toutes les radiations</RadiologyFilterDouble>
+  <RadiologyCarryingTo>transportant {0} vers {1}</RadiologyCarryingTo>
 </LanguageData>

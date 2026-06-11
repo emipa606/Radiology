@@ -16,4 +16,13 @@
     <verb>deliver</verb>
     <gerund>delivering</gerund>
   </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>WorkGiverRadiologyTakeToChamber</defName>
+    <label>carry to chamber</label>
+    <giverClass>Radiology.WorkGiverTakeToChamber</giverClass>
+    <workType>Doctor</workType>
+    <verb>carry to chamber</verb>
+    <gerund>carrying to chamber</gerund>
+    <priorityInType>75</priorityInType>
+  </WorkGiverDef>
 </Defs>

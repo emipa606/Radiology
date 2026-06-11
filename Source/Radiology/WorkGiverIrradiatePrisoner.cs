@@ -32,6 +32,12 @@ public class WorkGiverIrradiatePrisoner : WorkGiver_Warden
             return false;
         }
 
+        // Don't interfere if prisoner is being carried to chamber
+        if (prisoner?.CurJobDef == JobDefOf.RadiologyTakeToChamber)
+        {
+            return false;
+        }
+
         if (!ShouldTakeCareOfPrisoner(pawn, prisoner))
         {
             reason = reasonPrisonerInaccessible;

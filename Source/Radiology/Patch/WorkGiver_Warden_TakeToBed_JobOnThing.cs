@@ -24,6 +24,17 @@ public static class WorkGiver_Warden_TakeToBed_JobOnThing
             return true;
         }
 
+        foreach (var chamber in prisoner.MapHeld?.listerBuildings.AllBuildingsColonistOfClass<Chamber>() ?? [])
+        {
+            if (!prisoner.Downed || prisoner.Position != chamber.InteractionCell || !chamber.IsSelected(prisoner))
+            {
+                continue;
+            }
+
+            __result = null;
+            return false;
+        }
+
         if (prisoner.CurJob?.GetCachedDriver(prisoner) is not IPrisonerAllowedJob)
         {
             return true;

@@ -3,4 +3,41 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="Radiology/Radiology.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/">
+    <File Path="../1.6/Defs/Buildings.xml" />
+    <File Path="../1.6/Defs/Cancer.xml" />
+    <File Path="../1.6/Defs/CancerDefs.xml" />
+    <File Path="../1.6/Defs/DesignationCategories.xml" />
+    <File Path="../1.6/Defs/Effects.xml" />
+    <File Path="../1.6/Defs/HediffsBasic.xml" />
+    <File Path="../1.6/Defs/Jobs.xml" />
+    <File Path="../1.6/Defs/MutationsArms.xml" />
+    <File Path="../1.6/Defs/MutationsBlink.xml" />
+    <File Path="../1.6/Defs/MutationsCarapace.xml" />
+    <File Path="../1.6/Defs/MutationsElectricity.xml" />
+    <File Path="../1.6/Defs/MutationsGlow.xml" />
+    <File Path="../1.6/Defs/MutationsHeart.xml" />
+    <File Path="../1.6/Defs/MutationsLegs.xml" />
+    <File Path="../1.6/Defs/MutationsNightDweller.xml" />
+    <File Path="../1.6/Defs/MutationsOrgans.xml" />
+    <File Path="../1.6/Defs/MutationsParts.xml" />
+    <File Path="../1.6/Defs/MutationsPsionicShield.xml" />
+    <File Path="../1.6/Defs/MutationsRegeneration.xml" />
+    <File Path="../1.6/Defs/MutationsStomach.xml" />
+    <File Path="../1.6/Defs/MutationsVolatile.xml" />
+    <File Path="../1.6/Defs/Research.xml" />
+    <File Path="../1.6/Defs/Rooms.xml" />
+    <File Path="../1.6/Defs/Sounds.xml" />
+    <File Path="../1.6/Defs/Thoughts.xml" />
+    <File Path="../1.6/Defs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Radiology.xml" />
+  </Folder>
 </Solution>
